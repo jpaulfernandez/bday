@@ -150,6 +150,12 @@
       "type": "text"
     },
     {
+      "sender": "Jai",
+      "subject": "A message from Jai 💖",
+      "content": "Happy Birthday, Usec. Dana! Today’s most important agenda is ur birthday. I hope you get to take a well deserved break,breathe, & enjoy your special day. Maraming salamat for all that you do. Isa kang inspirasyon sa mga taga Brookshire. Cheers to another year of making a difference! 🫶🏻 woohoo 🫰🏼\n\n— Jai",
+      "type": "text"
+    },
+    {
       "sender": "Otep",
       "subject": "A video message from Otep 🎬",
       "content": "Happy Birthday Dana!! Watch this special video greeting from Otep!",
@@ -275,15 +281,15 @@
       "initialMessage": "Happy birthday cool girl. Pls slow down u crazy child.",
       "repeatMessages": [
         "Happy birthday cool girl. Pls slow down u crazy child.",
-        "Pls slow down u crazy child. 😎🤘",
+        "Pls slow down u crazy child.",
         "Happy birthday cool girl! Go collect those ramen ingredients! 🍜"
       ],
       "proximityBubbles": [
         "Cool girl! 😎",
         "Yo Dana!! 🤘",
         "Happy birthday! 🍜",
-        "Slow down!! 🎉",
-        "Crazy child! 🔥"
+        "Slow down!! ",
+        "Right???"
       ]
     },
     {

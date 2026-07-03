@@ -225,6 +225,8 @@ export default function IslandMap() {
                 handleOpenNpc(closestTarget.npc);
               } else if (closestTarget?.type === "zengarden") {
                 setActiveSuntukan(true);
+              } else if (closestTarget?.type === "hiddenTreasure" && closestTarget.hiddenTreasure) {
+                handleOpenHiddenTreasure(closestTarget.hiddenTreasure);
               }
             }}
             onToggleCharacter={toggleCharacterType}
