@@ -48,21 +48,37 @@ export default function VirtualJoystick({ onMove }: VirtualJoystickProps) {
     onMove({ dx: 0, dy: 0 });
   }, [onMove]);
 
-  // Touch event listeners
+  // Touch event listeners for joystick base
   useEffect(() => {
     const baseElement = baseRef.current;
     if (!baseElement) return;
 
     const onTouchStart = (e: TouchEvent) => {
       e.preventDefault();
+      e.stopPropagation();
       const touch = e.targetTouches[0];
-      handleStart(touch.clientX, touch.clientY);
+      if (touch) {
+        handleStart(touch.clientX, touch.clientY);
+      }
     };
+
+    baseElement.addEventListener("touchstart", onTouchStart, { passive: false });
+
+    return () => {
+      baseElement.removeEventListener("touchstart", onTouchStart);
+    };
+  }, [handleStart]);
+
+  // Global touch listeners only while joystick actively dragging
+  useEffect(() => {
+    if (!active) return;
 
     const onTouchMove = (e: TouchEvent) => {
       e.preventDefault();
       const touch = e.targetTouches[0];
-      handleMove(touch.clientX, touch.clientY);
+      if (touch) {
+        handleMove(touch.clientX, touch.clientY);
+      }
     };
 
     const onTouchEnd = (e: TouchEvent) => {
@@ -70,18 +86,16 @@ export default function VirtualJoystick({ onMove }: VirtualJoystickProps) {
       handleEnd();
     };
 
-    baseElement.addEventListener("touchstart", onTouchStart, { passive: false });
     window.addEventListener("touchmove", onTouchMove, { passive: false });
     window.addEventListener("touchend", onTouchEnd);
     window.addEventListener("touchcancel", onTouchEnd);
 
     return () => {
-      baseElement.removeEventListener("touchstart", onTouchStart);
       window.removeEventListener("touchmove", onTouchMove);
       window.removeEventListener("touchend", onTouchEnd);
       window.removeEventListener("touchcancel", onTouchEnd);
     };
-  }, [handleEnd, handleMove, handleStart]);
+  }, [active, handleEnd, handleMove]);
 
   // Mouse event listeners for desktop testing
   useEffect(() => {
