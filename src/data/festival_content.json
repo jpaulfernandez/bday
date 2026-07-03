@@ -1,0 +1,350 @@
+{
+  "friendName": "Dana",
+  "appTitle": "Dana's Sabaw Festival 🍜",
+  "landingSubtitle": "The broth is simmering, the lanterns are glowing, and the whole island has gathered for one delicious reason: it's your 26th birthday! Welcome to your very own Sabaw Festival, Dana!",
+  
+  "guide": {
+    "name": "Bubbles",
+    "title": "Festival Committee President 🐢",
+    "welcomeMessage": "Dana! You made it! I'm Bubbles. The Festival Chef in the center is preparing a special birthday ramen for you, but he needs 5 essential ingredients from the 5 festival stops around the island. Visit them all to build your bowl!",
+    "completionMessage": "You've gathered all 5 ramen ingredients! The Festival Chef in the center is ready to cook you the ultimate birthday feast! 🍜✨",
+    "nudges": [
+      "2 ingredients left — the chef's getting hungry! 🍜",
+      "Look for the glowing stops on the map! Every stop holds an essential ingredient.",
+      "The chef in the center won't serve until you have all 5 ingredients. Keep exploring, birthday girl!",
+      "You REALLY like this stall, huh?"
+    ]
+  },
+
+  "chef": {
+    "name": "Festival Chef",
+    "title": "Master Ramen Chef 👨‍🍳",
+    "openingDialogue": "Ahh, the birthday girl! 🍜 I've been simmering a special bowl just for you, Dana. But a great ramen needs great ingredients — and I'm fresh out! Help me gather them from around the festival, and I'll cook you the best birthday ramen of your life.",
+    "missingDialogue": "Smells like you're still missing a few things... keep going, birthday girl! [{collected} / 5 gathered]",
+    "completionDialogue": "You did it — every ingredient, gathered with love. Sit down. This one's all yours. 🍜",
+    "finalePrompt": "Happy birthday, Dana. 🍜💛\nWant to free roam and read everyone's messages again?"
+  },
+
+  "ingredients": {
+    "broth": {
+      "name": "Broth",
+      "stop": "Lantern Memories",
+      "themeTieIn": "our friendship simmering since day one",
+      "completionMessage": "Every memory adds flavor. Here's the broth — our friendship's been simmering since day one. 🍜",
+      "sourceEcho": "Broth — from your first day of school 🏫"
+    },
+    "noodles": {
+      "name": "Noodles",
+      "stop": "Message Board",
+      "themeTieIn": "the heart of the bowl",
+      "completionMessage": "The whole festival's rooting for you. Take these noodles — the heart of every bowl.",
+      "sourceEcho": "Noodles — the heart of every bowl from all your friends 🍜"
+    },
+    "ajitama": {
+      "name": "Ajitama (Marinated Egg)",
+      "stop": "Secret Spice Stall",
+      "themeTieIn": "earned via the spice recipe",
+      "completionMessage": "Perfectly seasoned. This ajitama is one of a kind — just like you.",
+      "sourceEcho": "Ajitama — perfectly seasoned and one of a kind 🌶️"
+    },
+    "chashu": {
+      "name": "Chashu Pork",
+      "stop": "Dana's House",
+      "themeTieIn": "\"borrowed\" from her fridge",
+      "completionMessage": "Take some chashu from the fridge while you're here. But you're NOT moving in!",
+      "sourceEcho": "Chashu — 'borrowed' straight from your fridge 🏡"
+    },
+    "narutomaki": {
+      "name": "Narutomaki Topping",
+      "stop": "Fortune Tent",
+      "themeTieIn": "the stars gifted you this",
+      "completionMessage": "The stars gifted you this! ⭐ Narutomaki, on the house.",
+      "sourceEcho": "Narutomaki — a glowing gift foretold by the stars ⭐"
+    }
+  },
+
+  "photos": [
+    {
+      "src": "/io_photo.jpg",
+      "alt": "Innovation Overture",
+      "caption": "Innovation overture palang, wala ka ng ambag jk hbd!!",
+      "date": "Innovation Overture"
+    },
+    {
+      "src": "/first_group_photo.jpg",
+      "alt": "First Group Photo",
+      "caption": "Abbie's kids first group photo? We don't know whats coming??",
+      "date": "First Group Photo"
+    },
+    {
+      "src": "/term1_ender.jpg",
+      "alt": "Term 1 Ender",
+      "caption": "Cool Kids 😎",
+      "date": "Term 1 Ender"
+    }
+  ],
+
+  "bloomBoard": [
+    {
+      "sender": "Bernard",
+      "subject": "A message from Bernard ✉️",
+      "content": "Happy Birthday Dana! You’re the friend I can always count on, and your passion for the Philippines shines in everything you do. Celebrate big! you deserve it 😊\n\n— Bernard",
+      "type": "text"
+    },
+    {
+      "sender": "Chin",
+      "subject": "A message from Chin 💌",
+      "content": "Happy Birthday, Dana! 🥳 Thank you for always being just one message away. I wish you all the best in every aspect of your life. You were one of the first people I truly got along with here in school, and I hope that never changes even after MIB. I miss you and I hope to see you soon! Hugggss!!! ♥️\n\n— Chin",
+      "type": "text"
+    },
+    {
+      "sender": "Jackie",
+      "subject": "A message from Jackie 💖",
+      "content": "Happy, blessed birthday, Dana! Wishing you the happiest birthday ever, my favorite sexytary! Thank you so much for all the love, support, and positive energy you've shared with our cohort.. We truly appreciate everything you do.. Alam naman naming busy kang tao kasi ikaw na ang future President of the Philippines.. Char!\n\n— Jackie",
+      "type": "text"
+    },
+    {
+      "sender": "Abbie",
+      "subject": "A message from Abbie 🌟",
+      "content": "To Dana.... Happy Birthday to one of the highest paid Cohort of MIB2026b and the new face of AIM!! To have you as an LT Mate was a wish I had during overture. My wish came true immediately in Term1! (it was even multiplied by 3 and Topped with our #1 cohort during that LT).\n\n— Abbie",
+      "type": "text"
+    },
+    {
+      "sender": "Otep",
+      "subject": "A video message from Otep 🎬",
+      "content": "Happy Birthday Dana!! Watch this special video greeting from Otep!",
+      "type": "video",
+      "videoUrl": "/otep_greetings.mp4"
+    }
+  ],
+
+  "messageBoard": [
+    {
+      "sender": "Bernard",
+      "subject": "A message from Bernard ✉️",
+      "content": "Happy Birthday Dana! You’re the friend I can always count on, and your passion for the Philippines shines in everything you do. Celebrate big! you deserve it 😊\n\n— Bernard",
+      "type": "text"
+    },
+    {
+      "sender": "Chin",
+      "subject": "A message from Chin 💌",
+      "content": "Happy Birthday, Dana! 🥳 Thank you for always being just one message away. I wish you all the best in every aspect of your life. You were one of the first people I truly got along with here in school, and I hope that never changes even after MIB. I miss you and I hope to see you soon! Hugggss!!! ♥️\n\n— Chin",
+      "type": "text"
+    },
+    {
+      "sender": "Jackie",
+      "subject": "A message from Jackie 💖",
+      "content": "Happy, blessed birthday, Dana! Wishing you the happiest birthday ever, my favorite sexytary! Thank you so much for all the love, support, and positive energy you've shared with our cohort.. We truly appreciate everything you do.. Alam naman naming busy kang tao kasi ikaw na ang future President of the Philippines.. Char!\n\n— Jackie",
+      "type": "text"
+    },
+    {
+      "sender": "Abbie",
+      "subject": "A message from Abbie 🌟",
+      "content": "To Dana.... Happy Birthday to one of the highest paid Cohort of MIB2026b and the new face of AIM!! To have you as an LT Mate was a wish I had during overture. My wish came true immediately in Term1! (it was even multiplied by 3 and Topped with our #1 cohort during that LT).\n\n— Abbie",
+      "type": "text"
+    },
+    {
+      "sender": "Josh",
+      "subject": "A message from Josh ✉️",
+      "content": "Happy birthday, Dana! Thank you for the friendship and all the help you’ve given these past few months. Your love for the Philippines is inspirational and I’m excited where God will take you in the future. Enjoy and take care always!\n\n— Josh",
+      "type": "text"
+    },
+    {
+      "sender": "Otep",
+      "subject": "A video message from Otep 🎬",
+      "content": "Happy Birthday Dana!! Watch this special video greeting from Otep!",
+      "type": "video",
+      "videoUrl": "/otep_greetings.mp4"
+    }
+  ],
+
+  "complimentBoard": [
+    {
+      "sender": "Bernard",
+      "subject": "A compliment from Bernard ✨",
+      "content": "“Dana is one of the prettiest faces I know. It matches how kind and dependable she is.”\n\n— Bernard",
+      "type": "text"
+    },
+    {
+      "sender": "Chin",
+      "subject": "A compliment from Chin 🌸",
+      "content": "I feel how much she cares through her simple messages. She’s always there to listen whenever you need someone to talk to.\n\n— Chin",
+      "type": "text"
+    },
+    {
+      "sender": "Jackie",
+      "subject": "A compliment from Jackie 💕",
+      "content": "One of my favorite memories with you was during our Innovation Overture Week.. Ang saya ng chikahan at tsismisan natin, tapos pareho pa tayong nagulat na magkapit-barangay lang pala tayo! Small world talaga.. Since that day, you've stayed exactly the same.. genuine, kind, approachable, and unapologetically yourself.. That's one of the things I admire most about you.. Never lose that beautiful heart and authentic spirit.. Stay happy, healthy, blessed, and continue spreading good vibes wherever you go.. Keep it real, love and peace on Earth! Enjoy your special day, Dana! You deserve all the happiness, love, and blessings today and always.. Happy birthday! 🎉🎈🎁💐🎊🧧🎂\n\n— Jackie",
+      "type": "text"
+    },
+    {
+      "sender": "Abbie",
+      "subject": "A compliment from Abbie 🌟",
+      "content": "I was thinking that it would be a great learning opportunity to be working with this beautiful lady, who speaks very eloquently and one who always gives wise & meaningful insights.\n\n— Abbie",
+      "type": "text"
+    },
+    {
+      "sender": "Josh",
+      "subject": "A compliment from Josh ✨",
+      "content": "Dana’s fashion sense is always on point and she’s a Steph Curry fan haha\n\n— Josh",
+      "type": "text"
+    }
+  ],
+
+  "spiceRecipe": {
+    "introText": "The Compliment Board displays special notes from your friends sharing what they admire and love most about you, Dana!",
+    "steps": [
+      { "id": "chili", "label": "Chili Pepper", "icon": "🌶️" },
+      { "id": "garlic", "label": "Crushed Garlic", "icon": "🧄" },
+      { "id": "egg", "label": "Simmered Egg", "icon": "🥚" }
+    ],
+    "hint": "Tap each card to read what your friends think about you. Once all are read, the Ajitama egg will be yours!",
+    "successMessage": "You are loved by everyone on this island!",
+    "tryAgainMessage": "Read all the cards to claim your Ajitama!"
+  },
+
+  "danasHouse": {
+    "introText": "Dana approaches her cozy beach house. The mailbox flag is down, but the fridge inside is calling...",
+    "jokeDialogue": "You're 26 — way too young to own a house. Go spend your money elsewhere! 😂 ...Fine, fine. Take some chashu from the fridge while you're here. But you're NOT moving in.",
+    "fridgeItem": "Chashu Pork 🥩"
+  },
+
+  "fortuneTent": {
+    "introText": "A mysterious purple tent stands at the edge of the festival grounds. Inside, the crystal ball glows brightly for the birthday girl.",
+    "fortuneText": "With Leo as both your Moon and Rising sign, the single biggest astrological event of this window lands squarely on you! Jupiter enters Leo on June 30, 2026 and stays until July 26, 2027, sitting directly on your Ascendant. This is described as a once-in-12-years 'Jupiter return' and one of the most visible, powerful, and personally transformative transits possible — so nearly everything this year is colored by it!",
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview 🌟",
+        "title": "Once-in-12-Years Jupiter Return & TL;DR",
+        "content": "With Leo as both her Moon and Rising sign, the single biggest astrological event of this window lands squarely on her. Jupiter enters Leo on June 30, 2026 and stays until July 26, 2027, sitting directly on her Ascendant.\n\nThis is described as a once-in-12-years \"Jupiter return\" and one of the most visible, powerful, and personally transformative transits possible — so nearly everything in Dana's 26th year is colored by it!\n\n📌 TL;DR SUMMARY OF HER HOROSCOPE:\n\n✨ Personality: It is your \"main character\" year! Expect a surge of confidence, magnetism, and a fresh wardrobe/glow, while keeping a soft, empathetic Cancer core.\n\n🌍 Life in General: Runs in 3 phases — bold initiation (June–Nov 2026), quiet internal reflection & healing (Dec 2026–Spring 2027 during Jupiter retrograde), and a major external harvest (mid-2027).\n\n💼 Career: High magnetic visibility attracts big opportunities! Lead by empowering and inspiring others. Progress will be steady and rewarding through patience.\n\n❤️ Love: Boosted romantic energy and attractiveness! Deepening emotional intimacy and meaningful connections, especially in the second half of the year."
+      },
+      {
+        "id": "personality",
+        "label": "Personality ✨",
+        "title": "This is Her Year to be Seen",
+        "content": "Jupiter on the Leo Ascendant means the planet of abundance and expansion sits directly on her 1st house of identity, body, and personal presence, making her the \"main character\" for roughly 13 months.\n\nExpect a surge of confidence, magnetism, and vitality — more energy radiating from her, and often a desire to transform her appearance (new hairstyle, wardrobe, a general glow). Cafe Astrology frames the same transit for her Cancer side as heightened optimism and generosity, greeting life with a fresh, can-do attitude where the past matters less than the future.\n\nHer Cancer Sun keeps a tender, intuitive core underneath all that shine — Cancer is ruled by the Moon, making her sensitive, caring, and quick to absorb the emotions around her. So the year's texture is warm Leo visibility wrapped around a soft, feeling Cancer center.\n\n⚠️ Caution: The line between solar confidence and ego inflation requires conscious attention, along with over-expansion (saying yes to everything because it all feels possible) and burnout from constantly being \"on.\""
+      },
+      {
+        "id": "general",
+        "label": "Life in General 🌍",
+        "title": "Three Phases of Transformation",
+        "content": "The arc runs in three distinct phases:\n\n1️⃣ Bold Initiation (June to Nov 2026): A powerful time for taking new leaps and stepping into the spotlight.\n\n2️⃣ Refinement & Internal Development (Dec 12, 2026 into Spring 2027): When Jupiter stations retrograde, it becomes a time to quietly restore confidence, reflect on how authentically she's expressing herself, and lower the curtain for behind-the-scenes work.\n\n3️⃣ The Harvest (Mid-2027): The retrograde ends and the final stretch through mid-2027 brings the external rewards.\n\nFor her Cancer side, 2026 is broadly described as a year of emotional maturity, healing, and quiet, steady growth — building solid foundations, with the bigger external payoff arriving in 2027. Saturn's move into Aries activates her career sector for about 2.5 years, so professional responsibility is a growing background theme all year."
+      },
+      {
+        "id": "career",
+        "label": "Career 💼",
+        "title": "Magnetic Opportunities & Leadership",
+        "content": "Jupiter on the Ascendant isn't primarily a \"career house\" transit, but it works by making her more visible and magnetic, which tends to attract opportunity.\n\nCafe Astrology's General Guidance: Be proud, confident, generous, and above-board in professional dealings. Take the high road, and lead by inspiring and empowering others rather than grabbing all the spotlight. Leadership shines brightest when she leaves room for others to shine too!\n\nFor her Cancer Sun, the career storyline is steady rather than explosive: gradual, consistent progress through diligence, with the first half of a given year often feeling slow and the second half bringing recognition, better relationships with colleagues, and potential promotions.\n\nSaturn in her career sector means responsibility and recognition are genuinely on the horizon, but earned through patience.\n\n💡 Financial Note: One recurring caution across sources is financial care — watch overspending and be discerning about money opportunities."
+      },
+      {
+        "id": "love",
+        "label": "Love ❤️",
+        "title": "Romantic Energy & Deepening Intimacy",
+        "content": "This is one of the more genuinely promising areas! Leo governs romantic love specifically (as distinct from formal partnership), and Jupiter amplifying her Leo placements tends to boost romantic energy, warmth, and attractiveness — others simply find her more compelling.\n\nFor her Cancer Sun, 2026 leans introspective and healing in love — favoring authentic emotional intimacy and, in some readings, the return of past lovers or a sense of reviewing what she truly needs to feel secure.\n\nSeveral sources point to the second half of the year as warmer, with deepening intimacy and rekindled romance, and single Cancers meeting meaningful new connections, often through family or social networks.\n\n🌟 Astro Caveat: Note that Venus retrograde (Oct 3 – Nov 13, 2026) is a \"lay low, review, don't make major decisions\" window where a lover may seem distant or casual romances stall.\n\nAstrological Note on Sourcing: These results split between two systems. The Jupiter-in-Leo material is Western/tropical astrology (matching sun-moon-rising framing). Several Cancer-year results are Vedic, which uses different sign math. We leaned on Western/tropical to stay consistent with her chart!"
+      }
+    ]
+  },
+
+  "npcs": [
+    {
+      "id": "sydney",
+      "name": "Sydney",
+      "title": "Sydney",
+      "sprite": "/assets/festival/npc-sydney-sprite.svg",
+      "portrait": "/assets/festival/npc-sydney-portrait.svg",
+      "initialMessage": "happy happy birthday daens! thanks for always being the designated driver (to which u always volunteer lol). appreciate that u entrust me w alot of personal hanash (old and current u) and even w ur goals! cant wait for ur next big transition iykyk. love u!! wish ko makita ang wild daens 2nite",
+      "repeatMessages": [
+        "happy happy birthday daens! thanks for always being the designated driver (to which u always volunteer lol). appreciate that u entrust me w alot of personal hanash (old and current u) and even w ur goals! cant wait for ur next big transition iykyk. love u!! wish ko makita ang wild daens 2nite",
+        "cant wait for ur next big transition iykyk. love u!! wish ko makita ang wild daens 2nite ✨"
+      ],
+      "proximityBubbles": [
+        "Hey Daens! 🍜",
+        "Designated driver! 🚗",
+        "Happy birthday!! 🎉",
+        "Wild Daens 2nite! 🔥",
+        "Love u!! 🥳"
+      ]
+    },
+    {
+      "id": "paul",
+      "name": "Paul",
+      "title": "Paul",
+      "sprite": "/assets/festival/npc-paul-sprite.svg",
+      "portrait": "/assets/festival/npc-paul-portrait.svg",
+      "initialMessage": "Happy birthday cool girl. Pls slow down u crazy child.",
+      "repeatMessages": [
+        "Happy birthday cool girl. Pls slow down u crazy child.",
+        "Pls slow down u crazy child. 😎🤘",
+        "Happy birthday cool girl! Go collect those ramen ingredients! 🍜"
+      ],
+      "proximityBubbles": [
+        "Cool girl! 😎",
+        "Yo Dana!! 🤘",
+        "Happy birthday! 🍜",
+        "Slow down!! 🎉",
+        "Crazy child! 🔥"
+      ]
+    },
+    {
+      "id": "nath",
+      "name": "Nath",
+      "title": "Nath",
+      "sprite": "/assets/festival/npc-nath-sprite.svg",
+      "portrait": "/assets/festival/npc-nath-portrait.svg",
+      "initialMessage": "Hey Daens, Happy Birthday! Welcome to your birthday beach vacay den. Just like this island getaway, your friendship brings so much peace into my life, and I’m so grateful for you.||I am so proud of everything you’re doing and all the plans you have ahead (if they haven’t completely changed since our T1 ender car ride!) Enjoy your stay on this virtual island today, but I hope we get to create real memories on a beautiful island somewhere in the world very soon. 🏝️💖",
+      "repeatMessages": [
+        "Hey Daens, Happy Birthday! Welcome to your birthday beach vacay den. Just like this island getaway, your friendship brings so much peace into my life, and I’m so grateful for you.||I am so proud of everything you’re doing and all the plans you have ahead (if they haven’t completely changed since our T1 ender car ride!) Enjoy your stay on this virtual island today, but I hope we get to create real memories on a beautiful island somewhere in the world very soon. 🏝️💖",
+        "Enjoy your stay on this virtual island today, but I hope we get to create real memories on a beautiful island somewhere in the world very soon! ✨"
+      ],
+      "proximityBubbles": [
+        "Hi Dana!! 💖",
+        "Best laugh ever! ✨",
+        "So happy you're here! ✨",
+        "Birthday queen! 👑",
+        "Sending all the love! 🥰"
+      ]
+    },
+    {
+      "id": "eira",
+      "name": "Eira",
+      "title": "Eira",
+      "sprite": "/assets/festival/npc-eira-sprite.svg",
+      "portrait": "/assets/festival/npc-eira-portrait.svg",
+      "initialMessage": "HBD DAENS 🤍 I wish this year gives you more chances to just enjoy life and let yourself be young!!! So grateful I get to call you my fren 🫶",
+      "repeatMessages": [
+        "HBD DAENS 🤍 So grateful I get to call you my fren 🫶 Now go get your birthday ramen! 🍜✨",
+        "Let yourself be young and enjoy life!! Go eat some delicious birthday ramen! 🍜",
+        "I already gave you my birthday message! Go explore the island and celebrate! 🎉",
+        "So lucky to be your fren 🫶 Have the best birthday festival ever! 🥳"
+      ],
+      "proximityBubbles": [
+        "HBD DAENS 🤍",
+        "My fren 🫶",
+        "Enjoy life!! ✨",
+        "Hey birthday girl! 🥂",
+        "Best day ever!! 🍜"
+      ]
+    },
+    {
+      "id": "angry-daens",
+      "name": "Angry Daens",
+      "title": "Angry Daens 🤬",
+      "sprite": "/assets/festival/npc-angry-daens-sprite.svg",
+      "portrait": "/assets/festival/npc-angry-daens-portrait.svg",
+      "initialMessage": "SOME MOTHERFUCKING BUS DRIVER CUT ME OFF||Oh WELL I GUESS I WONT BE NEEDING A CAR IN THIS ISLAND",
+      "repeatMessages": [
+        "SOME MOTHERFUCKING BUS DRIVER CUT ME OFF||Oh WELL I GUESS I WONT BE NEEDING A CAR IN THIS ISLAND",
+        "Oh WELL I GUESS I WONT BE NEEDING A CAR IN THIS ISLAND 🤬",
+        "WHO EVEN NEEDS A CAR ON A VIRTUAL BEACH ISLAND ANYWAY?!"
+      ],
+      "proximityBubbles": [
+        "MOTHERF***ING BUS DRIVER!! 🤬",
+        "NEY 2231 🚗",
+        "MY CAR!! 🌊",
+        "WHO CUT ME OFF?! 😡",
+        "UNBELIEVABLE!! 😤"
+      ]
+    }
+  ]
+}

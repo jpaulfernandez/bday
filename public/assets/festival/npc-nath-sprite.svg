@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 210" width="140" height="210">
+  <defs>
+    <filter id="shadowNath" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#4E3524" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Ground shadow -->
+  <ellipse cx="70" cy="200" rx="34" ry="8" fill="#000" opacity="0.16"/>
+
+  <!-- Back hair: Warm brown curly fluffy bun/ponytail puff tied back -->
+  <g>
+    <circle cx="50" cy="80" r="12" fill="#5C3A21" stroke="#241710" stroke-width="1.5"/>
+    <circle cx="62" cy="90" r="14" fill="#5C3A21" stroke="#241710" stroke-width="1.5"/>
+    <circle cx="78" cy="90" r="14" fill="#5C3A21" stroke="#241710" stroke-width="1.5"/>
+    <circle cx="90" cy="80" r="12" fill="#5C3A21" stroke="#241710" stroke-width="1.5"/>
+    <path d="M 48 80 Q 70 106 92 80 Z" fill="#5C3A21"/>
+    <!-- Curl texture arcs on back puff -->
+    <path d="M 52 85 Q 60 92 68 85" stroke="#8B5A2B" stroke-width="1.5" fill="none"/>
+    <path d="M 72 85 Q 80 92 88 85" stroke="#8B5A2B" stroke-width="1.5" fill="none"/>
+  </g>
+
+  <!-- Legs & shoes -->
+  <g>
+    <!-- Dark trousers/jeans -->
+    <rect x="52" y="148" width="15" height="38" rx="7" fill="#3D4550" stroke="#241710" stroke-width="1.4"/>
+    <rect x="73" y="148" width="15" height="38" rx="7" fill="#464E5A" stroke="#241710" stroke-width="1.4"/>
+    <rect x="51" y="176" width="17" height="6" rx="3" fill="#58606E"/>
+    <rect x="72" y="176" width="17" height="6" rx="3" fill="#58606E"/>
+    <!-- Cute cream boots/flats -->
+    <path d="M50 184 h19 a6 6 0 0 1 6 7 l-1 4 h-26 a5 5 0 0 1 -5 -5 v-1 a6 6 0 0 1 7 -5 Z" fill="#F4EAD4" stroke="#241710" stroke-width="1.4"/>
+    <path d="M71 184 h19 a6 6 0 0 1 6 7 l-1 4 h-26 a5 5 0 0 1 -5 -5 v-1 a6 6 0 0 1 7 -5 Z" fill="#EAE0CA" stroke="#241710" stroke-width="1.4"/>
+    <rect x="49" y="190" width="30" height="4" rx="2" fill="#D3C3A8"/>
+    <rect x="70" y="190" width="30" height="4" rx="2" fill="#D3C3A8"/>
+  </g>
+
+  <!-- Outfit: Lilac striped knit top under Cream/beige open coat -->
+  <!-- Lilac striped sweater -->
+  <path d="M 54 94 L 86 94 L 86 150 Q 86 156 78 156 L 62 156 Q 54 156 54 150 Z" fill="#D8C6E5" stroke="#241710" stroke-width="1.4"/>
+  <!-- Lilac stripes -->
+  <path d="M 55 106 h30" stroke="#8A6EA8" stroke-width="3"/>
+  <path d="M 55 118 h30" stroke="#8A6EA8" stroke-width="3"/>
+  <path d="M 55 130 h30" stroke="#8A6EA8" stroke-width="3"/>
+  <path d="M 55 142 h30" stroke="#8A6EA8" stroke-width="3"/>
+  
+  <!-- Cream/beige open coat jacket -->
+  <path d="M 46 96 Q 44 88 52 84 L 88 84 Q 96 88 94 96 L 95 150 Q 95 156 87 156 L 53 156 Q 45 156 45 150 Z" fill="#EDE4D3" stroke="#241710" stroke-width="1.6" stroke-linejoin="round"/>
+  <!-- Open coat trim -->
+  <path d="M 64 88 L 64 156" stroke="#D8C6E5" stroke-width="4"/>
+  <path d="M 76 88 L 76 156" stroke="#D8C6E5" stroke-width="4"/>
+  <!-- Coat lapel -->
+  <path d="M 52 84 L 64 104 L 60 108 L 46 92 Z" fill="#DFD4C0" stroke="#241710" stroke-width="1.2"/>
+  <path d="M 88 84 L 76 104 L 80 108 L 94 92 Z" fill="#DFD4C0" stroke="#241710" stroke-width="1.2"/>
+
+  <!-- Arms & hands -->
+  <path d="M 46 94 Q 34 102 38 118 Q 40 128 47 126 Q 52 124 50 116 Q 48 106 50 98 Z" fill="#EDE4D3" stroke="#241710" stroke-width="1.5" stroke-linejoin="round"/>
+  <circle cx="43" cy="126" r="5" fill="#F3CBA5" stroke="#241710" stroke-width="1.4"/>
+  
+  <path d="M 94 94 Q 106 102 102 118 Q 100 128 93 126 Q 88 124 90 116 Q 92 106 90 98 Z" fill="#EDE4D3" stroke="#241710" stroke-width="1.5" stroke-linejoin="round"/>
+  <circle cx="97" cy="126" r="5" fill="#F3CBA5" stroke="#241710" stroke-width="1.4"/>
+
+  <!-- Head & Face -->
+  <g transform="translate(0, 4)">
+    <!-- Neck -->
+    <rect x="62" y="70" width="16" height="12" rx="5" fill="#F3CBA5"/>
+    <rect x="62" y="70" width="16" height="6" rx="2" fill="#E0AF83" opacity="0.6"/>
+
+    <!-- Face shape -->
+    <ellipse cx="70" cy="48" rx="26" ry="25" fill="#F3CBA5" stroke="#241710" stroke-width="1.6"/>
+    
+    <!-- Ears -->
+    <ellipse cx="43" cy="50" rx="4" ry="7" fill="#F3CBA5" stroke="#241710" stroke-width="1.5"/>
+    <ellipse cx="97" cy="50" rx="4" ry="7" fill="#F3CBA5" stroke="#241710" stroke-width="1.5"/>
+    <!-- PEARL EARRINGS -->
+    <circle cx="43" cy="54" r="2.5" fill="#FAF6EC" stroke="#C9BDA4" stroke-width="0.8"/>
+    <circle cx="97" cy="54" r="2.5" fill="#FAF6EC" stroke="#C9BDA4" stroke-width="0.8"/>
+    <circle cx="42.3" cy="53.3" r="0.6" fill="#FFFFFF"/>
+    <circle cx="96.3" cy="53.3" r="0.6" fill="#FFFFFF"/>
+
+    <!-- Cheeks Blush -->
+    <ellipse cx="52" cy="57" rx="6" ry="3.5" fill="#F2967C" opacity="0.55"/>
+    <ellipse cx="88" cy="57" rx="6" ry="3.5" fill="#F2967C" opacity="0.55"/>
+
+    <!-- Eyebrows -->
+    <path d="M 52 40 Q 58 37 64 40" stroke="#4A2E18" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <path d="M 76 40 Q 82 37 88 40" stroke="#4A2E18" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+
+    <!-- Eyes: Warm dark brown, gentle & sweet -->
+    <ellipse cx="58" cy="49" rx="4.5" ry="5.2" fill="#FFFFFF"/>
+    <circle cx="58" cy="49" r="4" fill="#3B2616"/>
+    <circle cx="58" cy="49" r="2.2" fill="#110B06"/>
+    <circle cx="59.5" cy="47.5" r="1.3" fill="#FFFFFF"/>
+    <path d="M 53 47 Q 58 44 63 47" fill="none" stroke="#110B06" stroke-width="1.8" stroke-linecap="round"/>
+
+    <ellipse cx="82" cy="49" rx="4.5" ry="5.2" fill="#FFFFFF"/>
+    <circle cx="82" cy="49" r="4" fill="#3B2616"/>
+    <circle cx="82" cy="49" r="2.2" fill="#110B06"/>
+    <circle cx="83.5" cy="47.5" r="1.3" fill="#FFFFFF"/>
+    <path d="M 77 47 Q 82 44 87 47" fill="none" stroke="#110B06" stroke-width="1.8" stroke-linecap="round"/>
+
+    <!-- Nose -->
+    <path d="M 69 56 Q 68 59 71 57" stroke="#C88E68" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+
+    <!-- Sweet warm smile with teeth -->
+    <path d="M 59 63 Q 70 72 81 63 Z" fill="#FFFFFF" stroke="#A83C2C" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M 61 63 Q 70 66 79 63" stroke="#E57A68" stroke-width="1"/>
+
+    <!-- Warm Brown Curly Hair Base & Wavy Face-Framing Tendrils -->
+    <!-- Curly Crown Cap -->
+    <circle cx="48" cy="28" r="8" fill="#5C3A21" stroke="#241710" stroke-width="1.5"/>
+    <circle cx="56" cy="20" r="9" fill="#5C3A21" stroke="#241710" stroke-width="1.5"/>
+    <circle cx="70" cy="18" r="10" fill="#5C3A21" stroke="#241710" stroke-width="1.5"/>
+    <circle cx="84" cy="20" r="9" fill="#5C3A21" stroke="#241710" stroke-width="1.5"/>
+    <circle cx="92" cy="28" r="8" fill="#5C3A21" stroke="#241710" stroke-width="1.5"/>
+    <path d="M 44 48 Q 40 26 62 20 Q 84 14 96 32 Q 100 40 96 48 Q 94 34 87 28 Q 80 22 68 24 Q 64 27 62 32 Q 56 28 50 34 Q 45 40 44 48 Z" fill="#5C3A21" stroke="#241710" stroke-width="1.6" stroke-linejoin="round"/>
+    <!-- Highlight curl lines on crown -->
+    <path d="M 54 26 Q 62 32 70 26 Q 78 32 86 26" stroke="#8B5A2B" stroke-width="1.5" fill="none"/>
+
+    <!-- Left Wavy/Curly Face-Framing Tendril -->
+    <path d="M 46 44 Q 38 54 44 60 Q 50 66 42 72 C 40 74 44 76 46 72 Q 52 64 46 58 Q 42 52 48 44 Z" fill="#5C3A21" stroke="#241710" stroke-width="1.3" stroke-linejoin="round"/>
+    <path d="M 45 52 Q 41 58 45 64" stroke="#8B5A2B" stroke-width="1" fill="none"/>
+
+    <!-- Right Wavy/Curly Face-Framing Tendril -->
+    <path d="M 94 44 Q 102 54 96 60 Q 90 66 98 72 C 100 74 96 76 94 72 Q 88 64 94 58 Q 98 52 92 44 Z" fill="#5C3A21" stroke="#241710" stroke-width="1.3" stroke-linejoin="round"/>
+    <path d="M 95 52 Q 99 58 95 64" stroke="#8B5A2B" stroke-width="1" fill="none"/>
+  </g>
+
+  <!-- Sparkle near hair -->
+  <circle cx="102" cy="35" r="2" fill="#FFAEC9"/>
+  <path d="M 38 32 Q 38 29 35 29 Q 38 29 38 26 Q 38 29 41 29 Q 38 29 38 32 Z" fill="#FFD700"/>
+</svg>

@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 210" width="140" height="210">
+  <defs>
+    <filter id="shadowEira" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#1E293B" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Ground shadow -->
+  <ellipse cx="70" cy="200" rx="34" ry="8" fill="#000" opacity="0.16"/>
+
+  <!-- Back long hair flowing down back -->
+  <path d="M 40 60 Q 32 110 36 165 L 104 165 Q 108 110 100 60 Z" fill="#1A1A1A"/>
+  <path d="M 38 120 C 35 145 40 165 45 165" stroke="#111" stroke-width="1.5" fill="none"/>
+  <path d="M 102 120 C 105 145 100 165 95 165" stroke="#111" stroke-width="1.5" fill="none"/>
+
+  <!-- Legs & shoes: Black sheer stockings + Black loafers with silver buckles -->
+  <g>
+    <!-- Black stockings/tights -->
+    <rect x="52" y="148" width="15" height="38" rx="7" fill="#2E2E33" stroke="#111" stroke-width="1.4"/>
+    <rect x="73" y="148" width="15" height="38" rx="7" fill="#36363B" stroke="#111" stroke-width="1.4"/>
+    <!-- Black leather loafers -->
+    <path d="M50 184 h19 a5 5 0 0 1 5 7 l-1 4 h-26 a4 4 0 0 1 -4 -5 v-1 a5 5 0 0 1 6 -5 Z" fill="#18181A" stroke="#000" stroke-width="1.4"/>
+    <path d="M71 184 h19 a5 5 0 0 1 5 7 l-1 4 h-26 a4 4 0 0 1 -4 -5 v-1 a5 5 0 0 1 6 -5 Z" fill="#202022" stroke="#000" stroke-width="1.4"/>
+    <!-- Silver horsebit buckle on loafers -->
+    <rect x="55" y="186" width="9" height="3" rx="1.5" fill="#D1D5DB" stroke="#9CA3AF" stroke-width="0.5"/>
+    <rect x="76" y="186" width="9" height="3" rx="1.5" fill="#D1D5DB" stroke="#9CA3AF" stroke-width="0.5"/>
+    <!-- Shoe soles -->
+    <rect x="49" y="191" width="30" height="4" rx="2" fill="#0D0D0E"/>
+    <rect x="70" y="191" width="30" height="4" rx="2" fill="#0D0D0E"/>
+  </g>
+
+  <!-- White skirt peeking below jacket -->
+  <path d="M 48 135 L 92 135 L 96 156 L 44 156 Z" fill="#FAF6EC" stroke="#181818" stroke-width="1.4"/>
+  <path d="M 46 148 L 94 148" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Outfit: Navy denim jacket with silver buttons over white blouse -->
+  <path d="M 44 96 Q 42 88 50 84 L 90 84 Q 98 88 96 96 L 97 142 Q 97 146 89 146 L 51 146 Q 43 146 43 142 Z" fill="#1E3A5F" stroke="#0F172A" stroke-width="1.6" stroke-linejoin="round"/>
+  <!-- Denim jacket seams -->
+  <path d="M 56 94 L 56 144" stroke="#2563EB" stroke-width="1" stroke-dasharray="3,2"/>
+  <path d="M 84 94 L 84 144" stroke="#2563EB" stroke-width="1" stroke-dasharray="3,2"/>
+  <path d="M 44 135 h52" stroke="#1E40AF" stroke-width="1.5"/>
+  <!-- Center button placket & Round silver buttons -->
+  <line x1="70" y1="94" x2="70" y2="144" stroke="#0F172A" stroke-width="1.5"/>
+  <circle cx="70" cy="100" r="2.2" fill="#E2E8F0" stroke="#64748B" stroke-width="0.8"/>
+  <circle cx="70" cy="112" r="2.2" fill="#E2E8F0" stroke="#64748B" stroke-width="0.8"/>
+  <circle cx="70" cy="124" r="2.2" fill="#E2E8F0" stroke="#64748B" stroke-width="0.8"/>
+  <circle cx="70" cy="136" r="2.2" fill="#E2E8F0" stroke="#64748B" stroke-width="0.8"/>
+  
+  <!-- White blouse collar peeking at neckline -->
+  <path d="M 58 84 L 70 96 L 62 100 L 54 88 Z" fill="#FAF6EC" stroke="#0F172A" stroke-width="1.2"/>
+  <path d="M 82 84 L 70 96 L 78 100 L 86 88 Z" fill="#FAF6EC" stroke="#0F172A" stroke-width="1.2"/>
+
+  <!-- Arms & hands -->
+  <path d="M 44 94 Q 32 102 36 118 Q 38 128 45 126 Q 50 124 48 116 Q 46 106 48 98 Z" fill="#1E3A5F" stroke="#0F172A" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- White cuff -->
+  <rect x="37" y="116" width="10" height="4" rx="1" fill="#FAF6EC" stroke="#0F172A" stroke-width="1" transform="rotate(15 37 116)"/>
+  <circle cx="41" cy="126" r="5" fill="#F3CBA5" stroke="#0F172A" stroke-width="1.4"/>
+  
+  <path d="M 96 94 Q 108 102 104 118 Q 102 128 95 126 Q 90 124 92 116 Q 94 106 92 98 Z" fill="#1E3A5F" stroke="#0F172A" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- White cuff -->
+  <rect x="93" y="116" width="10" height="4" rx="1" fill="#FAF6EC" stroke="#0F172A" stroke-width="1" transform="rotate(-15 93 116)"/>
+  <circle cx="99" cy="126" r="5" fill="#F3CBA5" stroke="#0F172A" stroke-width="1.4"/>
+
+  <!-- Head & Face -->
+  <g transform="translate(0, 4)">
+    <!-- Neck -->
+    <rect x="62" y="70" width="16" height="12" rx="5" fill="#F3CBA5"/>
+    <rect x="62" y="70" width="16" height="6" rx="2" fill="#E0AF83" opacity="0.6"/>
+
+    <!-- Face shape -->
+    <ellipse cx="70" cy="48" rx="26" ry="25" fill="#F3CBA5" stroke="#0F172A" stroke-width="1.6"/>
+    
+    <!-- Ears -->
+    <ellipse cx="43" cy="50" rx="4" ry="7" fill="#F3CBA5" stroke="#0F172A" stroke-width="1.5"/>
+    <ellipse cx="97" cy="50" rx="4" ry="7" fill="#F3CBA5" stroke="#0F172A" stroke-width="1.5"/>
+
+    <!-- Cheeks Blush -->
+    <ellipse cx="52" cy="57" rx="6" ry="3.5" fill="#F2967C" opacity="0.55"/>
+    <ellipse cx="88" cy="57" rx="6" ry="3.5" fill="#F2967C" opacity="0.55"/>
+
+    <!-- Eyebrows -->
+    <path d="M 52 40 Q 58 37 64 40" stroke="#181818" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <path d="M 76 40 Q 82 37 88 40" stroke="#181818" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+
+    <!-- Eyes -->
+    <ellipse cx="58" cy="49" rx="4.5" ry="5.2" fill="#FFFFFF"/>
+    <circle cx="58" cy="49" r="4" fill="#3B2616"/>
+    <circle cx="58" cy="49" r="2.2" fill="#110B06"/>
+    <circle cx="59.5" cy="47.5" r="1.3" fill="#FFFFFF"/>
+    <path d="M 53 47 Q 58 44 63 47" fill="none" stroke="#110B06" stroke-width="1.8" stroke-linecap="round"/>
+
+    <ellipse cx="82" cy="49" rx="4.5" ry="5.2" fill="#FFFFFF"/>
+    <circle cx="82" cy="49" r="4" fill="#3B2616"/>
+    <circle cx="82" cy="49" r="2.2" fill="#110B06"/>
+    <circle cx="83.5" cy="47.5" r="1.3" fill="#FFFFFF"/>
+    <path d="M 77 47 Q 82 44 87 47" fill="none" stroke="#110B06" stroke-width="1.8" stroke-linecap="round"/>
+
+    <!-- Nose -->
+    <path d="M 69 56 Q 68 59 71 57" stroke="#C88E68" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+
+    <!-- Big happy smile -->
+    <path d="M 57 63 Q 70 74 83 63 Z" fill="#FFFFFF" stroke="#A83C2C" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M 59 63 Q 70 66 81 63" stroke="#E57A68" stroke-width="1"/>
+
+    <!-- FULL COMPLETE HAIR: Crown dome + seamless bangs + long side locks -->
+    <!-- Solid back/top crown dome covering upper head completely -->
+    <path d="M 40 45 C 40 18 100 18 100 45 C 100 50 98 52 95 45 C 90 28 50 28 45 45 C 42 52 40 50 40 45 Z" fill="#1A1A1A" stroke="#0F172A" stroke-width="1.6"/>
+    <path d="M 43 45 C 40 22 100 22 97 45 Z" fill="#1A1A1A"/>
+    
+    <!-- Full straight bangs across forehead -->
+    <path d="M 43 40 Q 70 44 97 40 L 97 46 Q 70 50 43 46 Z" fill="#1A1A1A" stroke="#0F172A" stroke-width="1.2"/>
+    <!-- Bang texture lines -->
+    <path d="M 54 38 L 53 46" stroke="#2C2C2C" stroke-width="1.5"/>
+    <path d="M 70 39 L 70 48" stroke="#2C2C2C" stroke-width="1.5"/>
+    <path d="M 86 38 L 87 46" stroke="#2C2C2C" stroke-width="1.5"/>
+    
+    <!-- Long lush side locks framing cheeks and shoulders -->
+    <path d="M 42 38 Q 38 70 40 105 Q 46 108 48 102 Q 46 70 48 44 Z" fill="#1A1A1A" stroke="#0F172A" stroke-width="1.4"/>
+    <path d="M 98 38 Q 102 70 100 105 Q 94 108 92 102 Q 94 70 92 44 Z" fill="#1A1A1A" stroke="#0F172A" stroke-width="1.4"/>
+  </g>
+
+  <!-- Sparkle near hair -->
+  <circle cx="104" cy="36" r="2" fill="#60A5FA"/>
+  <path d="M 36 32 Q 36 29 33 29 Q 36 29 36 26 Q 36 29 39 29 Q 36 29 36 32 Z" fill="#FFD700"/>
+</svg>

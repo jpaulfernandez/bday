@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Glowing aura -->
+  <circle cx="32" cy="34" r="28" fill="#FFD166" opacity="0.3"/>
+  <!-- Ramen Bowl -->
+  <path d="M12 34 Q12 56 32 56 Q52 56 52 34 Z" fill="#E0533C" stroke="#8A2E1F" stroke-width="2.5"/>
+  <path d="M14 34 Q32 38 50 34" fill="none" stroke="#FFF" stroke-width="2"/>
+  <rect x="22" y="56" width="20" height="4" rx="2" fill="#8A2E1F"/>
+  <!-- Chef Hat -->
+  <path d="M22 28 C16 28 16 16 24 16 C26 10 38 10 40 16 C48 16 48 28 42 28 Z" fill="#FFF" stroke="#2B5F75" stroke-width="2"/>
+  <rect x="23" y="27" width="18" height="5" rx="1" fill="#E0533C"/>
+  <!-- Steam -->
+  <path d="M26 10 Q28 6 26 2" fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <path d="M38 10 Q36 6 38 2" fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+</svg>

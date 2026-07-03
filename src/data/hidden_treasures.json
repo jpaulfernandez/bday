@@ -1,0 +1,82 @@
+[
+  {
+    "id": "star-dalagang",
+    "title": "Dalagang Filipina",
+    "photo": "/stars/dalagang_filipina.jpg",
+    "caption": "Dalagang Filipina eyyyy ✨",
+    "x": 29,
+    "y": 26
+  },
+  {
+    "id": "star-pakyu",
+    "title": "Spicy Attitude",
+    "photo": "/stars/dana_pakyu.jpg",
+    "caption": "Pakyu kayong lahat na nasa gobyerno (at pol)",
+    "x": 33,
+    "y": 36
+  },
+  {
+    "id": "star-dont-steal",
+    "title": "Don't Steal My Snacks",
+    "photo": "/stars/dont_steal.jpg",
+    "caption": "Get away from my match strawberry mcflurry!!!",
+    "x": 44,
+    "y": 39
+  },
+  {
+    "id": "star-face-mib",
+    "title": "Men In Black Face",
+    "photo": "/stars/face_of_mib.jpg",
+    "caption": "I OWN THIS PLACE",
+    "x": 65,
+    "y": 54
+  },
+  {
+    "id": "star-masungit",
+    "title": "Masungit Mode",
+    "photo": "/stars/masungit.jpg",
+    "caption": "Dana: Tingen kaya ng iba masungit ako? Also Dana:",
+    "x": 75,
+    "y": 49
+  },
+  {
+    "id": "star-pacool",
+    "title": "Pa-Cool Kid",
+    "photo": "/stars/pacool.jpg",
+    "caption": "Sitting on the floor, wired earphones. Peak pick me girl",
+    "x": 83,
+    "y": 61
+  },
+  {
+    "id": "star-what-u-doing",
+    "title": "What U Doing?",
+    "photo": "/stars/what_u_doing.jpg",
+    "caption": "Asan na? ang alen?",
+    "x": 58,
+    "y": 77
+  },
+  {
+    "id": "star-whatchudoin",
+    "title": "Whatchudoin Here?",
+    "photo": "/stars/whatchudoin.jpg",
+    "caption": "😀",
+    "x": 68,
+    "y": 84
+  },
+  {
+    "id": "star-before-mib",
+    "title": "Before The Mission",
+    "photo": "/stars/before_face_mib.jpg",
+    "caption": "Mga huling sandali bago ang sakuna",
+    "x": 19,
+    "y": 77
+  },
+  {
+    "id": "star-gulat",
+    "title": "Gulat Reaction",
+    "photo": "/stars/gulat.jpg",
+    "caption": "Pano yung gulat??",
+    "x": 30,
+    "y": 82
+  }
+]

@@ -1,0 +1,288 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 340" width="300" height="340">
+  <defs>
+    <clipPath id="portraitCircle">
+      <circle cx="150" cy="172" r="140"/>
+    </clipPath>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8ED"/>
+      <stop offset="100%" stop-color="#F5E6CE"/>
+    </linearGradient>
+    <linearGradient id="jacketGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F8DF72"/>
+      <stop offset="100%" stop-color="#ECD053"/>
+    </linearGradient>
+    <linearGradient id="phoneGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2C2E33"/>
+      <stop offset="100%" stop-color="#15161A"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#4E3524" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Soft cream/sand backdrop circle -->
+  <circle cx="150" cy="172" r="140" fill="url(#bgGrad)"/>
+
+  <!-- Decorative floating sakura petals in background -->
+  <g clip-path="url(#portraitCircle)" opacity="0.4">
+    <path d="M 60 100 Q 68 95 72 103 Q 66 112 58 106 Q 54 98 60 100 Z" fill="#FFAEC9"/>
+    <path d="M 230 80 Q 240 78 242 88 Q 234 96 226 90 Q 224 82 230 80 Z" fill="#FFAEC9"/>
+    <path d="M 40 220 Q 50 216 52 226 Q 44 236 36 228 Q 34 220 40 220 Z" fill="#FFAEC9"/>
+    <path d="M 250 240 Q 258 234 262 244 Q 254 254 246 246 Q 244 238 250 240 Z" fill="#FFAEC9"/>
+    <circle cx="85" cy="150" r="3" fill="#FFAEC9"/>
+    <circle cx="220" cy="180" r="2.5" fill="#FFAEC9"/>
+  </g>
+
+  <!-- MAIN PORTRAIT CONTENT (CLIPPED TO CIRCLE) -->
+  <g clip-path="url(#portraitCircle)">
+    <!-- Back hair / Nape hairs behind neck -->
+    <path d="M 120 180 Q 110 210 115 235 L 185 235 Q 190 210 180 180 Z" fill="#5E3F28"/>
+
+    <!-- ============ OUTFIT: WHITE COLLARED BLOUSE + YELLOW FESTIVAL JACKET ============ -->
+    <!-- White collared blouse base -->
+    <path d="M 80 344 Q 85 250 120 236 L 180 236 Q 215 250 220 344 Z" fill="#FAF6EC" stroke="#4E3524" stroke-width="2"/>
+    <!-- V-neck placket & shadows -->
+    <path d="M 150 268 L 150 344" stroke="#DCD2C0" stroke-width="1.8" stroke-dasharray="8,4"/>
+    <path d="M 120 236 L 150 272 L 180 236 Z" fill="#EAE0D0"/>
+    
+    <!-- Crisp White Collar Points / Lapels -->
+    <!-- Left collar point -->
+    <path d="M 120 236 L 150 270 L 130 278 L 105 250 Z" fill="#FAF6EC" stroke="#4E3524" stroke-width="1.8" stroke-linejoin="round" filter="url(#softShadow)"/>
+    <!-- Right collar point -->
+    <path d="M 180 236 L 150 270 L 170 278 L 195 250 Z" fill="#FAF6EC" stroke="#4E3524" stroke-width="1.8" stroke-linejoin="round" filter="url(#softShadow)"/>
+    <!-- Blouse buttons -->
+    <circle cx="150" cy="286" r="2.8" fill="#F0E8D8" stroke="#C8BCAC" stroke-width="1"/>
+    <circle cx="150" cy="308" r="2.8" fill="#F0E8D8" stroke="#C8BCAC" stroke-width="1"/>
+
+    <!-- Open Yellow Festival Jacket draped over shoulders -->
+    <path d="M 50 344 Q 54 260 105 245 L 122 255 Q 112 285 110 344 Z" fill="url(#jacketGrad)" stroke="#4E3524" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M 250 344 Q 246 260 195 245 L 178 255 Q 188 285 190 344 Z" fill="url(#jacketGrad)" stroke="#4E3524" stroke-width="2" stroke-linejoin="round"/>
+    <!-- Jacket collar fold shading -->
+    <path d="M 105 245 L 122 255 L 114 275 Z" fill="#D8BE3D"/>
+    <path d="M 195 245 L 178 255 L 186 275 Z" fill="#D8BE3D"/>
+    
+    <!-- Festival Sakura Blossom Pin on Jacket Lapel -->
+    <g transform="translate(100, 275) scale(0.9)">
+      <circle cx="0" cy="0" r="10" fill="#FFB7C5" stroke="#4E3524" stroke-width="1.5"/>
+      <path d="M -5 -3 Q 0 -8 5 -3 Q 8 0 5 5 Q 0 8 -5 5 Q -8 0 -5 -3 Z" fill="#FF8DA1"/>
+      <circle cx="0" cy="0" r="3" fill="#FFF"/>
+    </g>
+
+    <!-- ============ NECK ============ -->
+    <path d="M 136 190 L 136 240 Q 150 245 164 240 L 164 190 Z" fill="#F3CBA5"/>
+    <path d="M 136 202 Q 150 214 164 202 L 164 190 L 136 190 Z" fill="#E0AF83" opacity="0.65"/>
+
+    <!-- ============ FACE & HEAD ============ -->
+    <!-- Head base -->
+    <path d="M 104 130
+             C 104 85 124 65 150 65
+             C 176 65 196 85 196 130
+             C 196 160 188 182 172 196
+             C 164 203 156 207 150 207
+             C 144 207 136 203 128 196
+             C 112 182 104 160 104 130 Z"
+          fill="#F3CBA5" stroke="#4E3524" stroke-width="2"/>
+    
+    <!-- Ears -->
+    <ellipse cx="101" cy="146" rx="7.5" ry="12" fill="#F3CBA5" stroke="#4E3524" stroke-width="1.8"/>
+    <ellipse cx="199" cy="146" rx="7.5" ry="12" fill="#F3CBA5" stroke="#4E3524" stroke-width="1.8"/>
+    <!-- Pearl Earrings -->
+    <circle cx="101" cy="158" r="3.5" fill="#FAF6EC" stroke="#C9BDA4" stroke-width="1"/>
+    <circle cx="199" cy="158" r="3.5" fill="#FAF6EC" stroke="#C9BDA4" stroke-width="1"/>
+
+    <!-- Jawline shadow under chin -->
+    <path d="M 128 195 Q 150 208 172 195 Q 160 202 150 202 Q 140 202 128 195 Z" fill="#E0AF83" opacity="0.5"/>
+
+    <!-- Cheeks Blush (Peachy rose glow) -->
+    <ellipse cx="118" cy="164" rx="12" ry="6.5" fill="#F2967C" opacity="0.55"/>
+    <ellipse cx="182" cy="164" rx="12" ry="6.5" fill="#F2967C" opacity="0.55"/>
+
+    <!-- Eyebrows: Expressive, slightly raised playful arch -->
+    <path d="M 110 123 Q 123 115 137 121" fill="none" stroke="#5B3E28" stroke-width="3.6" stroke-linecap="round"/>
+    <path d="M 190 123 Q 177 115 163 121" fill="none" stroke="#5B3E28" stroke-width="3.6" stroke-linecap="round"/>
+
+    <!-- Eyes: Warm dark brown, looking bright & confident -->
+    <!-- Left eye -->
+    <path d="M 112 142 Q 125 133 138 141 Q 137 154 125 155 Q 114 154 112 142 Z" fill="#FFFFFF"/>
+    <circle cx="127" cy="145" r="7.5" fill="#4A2E18"/>
+    <circle cx="127" cy="145" r="4" fill="#1A1008"/>
+    <circle cx="129.5" cy="142" r="2.2" fill="#FFFFFF"/>
+    <circle cx="124" cy="148" r="1" fill="#FFFFFF"/>
+    <!-- Upper lash line -->
+    <path d="M 110 141 Q 124 130 140 139" fill="none" stroke="#2D1A0C" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 114 153 Q 125 157 135 153" fill="none" stroke="#C88E68" stroke-width="1.6"/>
+
+    <!-- Right eye -->
+    <path d="M 188 142 Q 175 133 162 141 Q 163 154 175 155 Q 186 154 188 142 Z" fill="#FFFFFF"/>
+    <circle cx="173" cy="145" r="7.5" fill="#4A2E18"/>
+    <circle cx="173" cy="145" r="4" fill="#1A1008"/>
+    <circle cx="175.5" cy="142" r="2.2" fill="#FFFFFF"/>
+    <circle cx="170" cy="148" r="1" fill="#FFFFFF"/>
+    <!-- Upper lash line -->
+    <path d="M 190 141 Q 176 130 160 139" fill="none" stroke="#2D1A0C" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 186 153 Q 175 157 165 153" fill="none" stroke="#C88E68" stroke-width="1.6"/>
+
+    <!-- Nose: Cute, subtle natural tip -->
+    <path d="M 148 156 Q 146 166 150 169 Q 153 171 156 168" fill="none" stroke="#C88E68" stroke-width="2.2" stroke-linecap="round"/>
+
+    <!-- ============ SUBTLER, NATURAL KISSY POUT (REDUCED SIZE!) ============ -->
+    <g transform="translate(0, 0)">
+      <!-- Outer lip shadow/crease -->
+      <ellipse cx="150" cy="183" rx="11" ry="8" fill="#E0AF83" opacity="0.3"/>
+      <!-- Upper puckered lip (Subtler Cupid's bow pout) -->
+      <path d="M 141 180 Q 146 175 150 178 Q 154 175 159 180 Q 155 182.5 150 182 Q 145 182.5 141 180 Z" fill="#D96B58" stroke="#A83C2C" stroke-width="1.2" stroke-linejoin="round"/>
+      <!-- Lower puckered lip (Slightly smaller, rounder pout) -->
+      <path d="M 141 180 Q 145 182.5 150 182 Q 155 182.5 159 180 Q 155 188 150 188 Q 145 188 141 180 Z" fill="#E57A68" stroke="#A83C2C" stroke-width="1.2" stroke-linejoin="round"/>
+      <!-- Lip center line -->
+      <path d="M 143 181 Q 150 179.5 157 181" fill="none" stroke="#8C2D20" stroke-width="1.4" stroke-linecap="round"/>
+      <!-- Glossy white highlight dot on bottom lip -->
+      <ellipse cx="148" cy="184.5" rx="2.5" ry="1.4" fill="#FFFFFF" opacity="0.8" transform="rotate(-8 148 184.5)"/>
+    </g>
+
+    <!-- ============ HAIR: BASE & SHORTER FACE-FRAMING TENDRILS ============ -->
+    <!-- Hair crown cap -->
+    <path d="M 100 135
+             C 92 85 116 56 150 54
+             C 184 56 208 85 200 135
+             C 194 105 180 88 160 84
+             C 140 88 126 105 100 135 Z"
+          fill="#6E4B2F" stroke="#4E3524" stroke-width="2" stroke-linejoin="round"/>
+    
+    <!-- Side-swept wispy bangs across forehead -->
+    <path d="M 155 56 Q 130 70 112 110 Q 125 90 145 80 Q 150 78 155 56 Z" fill="#7B5638"/>
+    <path d="M 160 58 Q 175 75 188 108 Q 178 88 165 76 Q 162 72 160 58 Z" fill="#7B5638"/>
+    <path d="M 135 68 Q 120 85 110 115 Q 116 95 130 78 Z" fill="#B08350" opacity="0.7"/>
+
+    <!-- Left Face-Framing Tendril (Reduced length: stops at earlobe/cheekbone!) -->
+    <path d="M 102 115
+             C 94 135 98 155 95 172
+             C 94 178 98 180 102 175
+             C 105 168 103 150 108 125
+             Z"
+          fill="#7B5638" stroke="#4E3524" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M 99 130 Q 97 155 99 170" stroke="#B08350" stroke-width="1.4" fill="none"/>
+
+    <!-- Right Face-Framing Tendril (Reduced length: stops at earlobe/cheekbone!) -->
+    <path d="M 198 115
+             C 206 135 202 155 205 172
+             C 206 178 202 180 198 175
+             C 195 168 197 150 192 125
+             Z"
+          fill="#7B5638" stroke="#4E3524" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M 201 130 Q 203 155 201 170" stroke="#B08350" stroke-width="1.4" fill="none"/>
+
+    <!-- ============ GLASSES: MODERN THIN WIREFRAME (POLYGONAL / ROUNDED SQUARE) ============ -->
+    <!-- Sleek gold/champagne wireframe exactly like her photo -->
+    <g fill="none" stroke="#C8966E" stroke-width="2.6" stroke-linejoin="round">
+      <!-- Left lens frame -->
+      <path d="M 106 136 Q 106 125 116 125 L 134 125 Q 144 125 144 136 L 142 154 Q 140 163 132 163 L 116 163 Q 108 163 106 154 Z"/>
+      <!-- Right lens frame -->
+      <path d="M 156 136 Q 156 125 166 125 L 184 125 Q 194 125 194 136 L 194 154 Q 192 163 184 163 L 168 163 Q 160 163 158 154 Z"/>
+      <!-- Center nose bridge -->
+      <path d="M 144 134 Q 150 130 156 134" stroke-width="2.4"/>
+      <!-- Wire temples -->
+      <path d="M 106 134 L 98 131" stroke-width="2.2"/>
+      <path d="M 194 134 L 202 131" stroke-width="2.2"/>
+    </g>
+    <!-- Lens inner shine -->
+    <g fill="#FFFFFF" opacity="0.1">
+      <path d="M 108 136 Q 108 127 116 127 L 134 127 Q 142 127 142 136 L 140 154 Q 138 161 132 161 L 116 161 Q 110 161 108 154 Z"/>
+      <path d="M 158 136 Q 158 127 166 127 L 184 127 Q 192 127 192 136 L 192 154 Q 190 161 184 161 L 168 161 Q 160 161 158 154 Z"/>
+    </g>
+    <!-- Diagonal light sheen on lenses -->
+    <path d="M 112 135 L 126 158" stroke="#FFFFFF" stroke-width="2.5" opacity="0.45" stroke-linecap="round"/>
+    <path d="M 118 132 L 132 155" stroke="#FFFFFF" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+    <path d="M 162 135 L 176 158" stroke="#FFFFFF" stroke-width="2.5" opacity="0.45" stroke-linecap="round"/>
+    <path d="M 168 132 L 182 155" stroke="#FFFFFF" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+
+    <!-- ============ HOLDING 2 PHONES! (DUAL-WIELDING SELFIES!) ============ -->
+    <!-- Phone 1 (Left hand, viewer's right): Black smartphone with blue cardholder -->
+    <g transform="translate(195, 210) rotate(-12)">
+      <rect x="0" y="10" width="62" height="115" rx="10" fill="url(#phoneGrad)" stroke="#4E3524" stroke-width="2" filter="url(#softShadow)"/>
+      <rect x="8" y="20" width="24" height="26" rx="6" fill="#111214" stroke="#3A3D45" stroke-width="1"/>
+      <circle cx="16" cy="28" r="4.5" fill="#22252A" stroke="#4F525E" stroke-width="1"/>
+      <circle cx="16" cy="28" r="2" fill="#0A0B0C"/>
+      <circle cx="15" cy="27" r="0.8" fill="#FFF" opacity="0.7"/>
+      <circle cx="24" cy="38" r="4.5" fill="#22252A" stroke="#4F525E" stroke-width="1"/>
+      <circle cx="24" cy="38" r="2" fill="#0A0B0C"/>
+      <circle cx="26" cy="26" r="2.5" fill="#F5F5F0" opacity="0.8"/>
+      <!-- Blue cardholder wallet -->
+      <rect x="8" y="55" width="46" height="60" rx="5" fill="#243447" stroke="#1A2634" stroke-width="1.5"/>
+      <line x1="12" y1="62" x2="48" y2="62" stroke="#384E69" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <rect x="14" y="66" width="34" height="40" rx="3" fill="#1D2A3A"/>
+      <!-- Left hand fingers gripping phone 1 -->
+      <path d="M -8 50 Q -10 35 -2 30 Q 5 28 8 38 L 4 65 Q -5 65 -8 50 Z" fill="#F3CBA5" stroke="#4E3524" stroke-width="1.8"/>
+      <path d="M 60 40 Q 72 38 74 48 Q 75 56 62 55 Z" fill="#F3CBA5" stroke="#4E3524" stroke-width="1.8"/>
+      <path d="M 62 55 Q 74 55 75 64 Q 74 72 62 70 Z" fill="#EFC398" stroke="#4E3524" stroke-width="1.8"/>
+      <path d="M 62 70 Q 73 70 73 78 Q 72 85 62 83 Z" fill="#EBBF94" stroke="#4E3524" stroke-width="1.8"/>
+      <path d="M 61 83 Q 70 85 69 92 Q 67 98 58 95 Z" fill="#E0AF83" stroke="#4E3524" stroke-width="1.8"/>
+      <path d="M 68 85 Q 85 100 110 120 L 80 140 Q 60 110 55 95 Z" fill="#FAF6EC" stroke="#4E3524" stroke-width="1.8"/>
+    </g>
+
+    <!-- Phone 2 (Right hand, viewer's left): Sleek white/silver festival smartphone! -->
+    <g transform="translate(45, 210) rotate(12)">
+      <rect x="0" y="10" width="62" height="115" rx="10" fill="#F0F2F5" stroke="#4E3524" stroke-width="2" filter="url(#softShadow)"/>
+      <!-- Camera island on back of phone 2 -->
+      <rect x="30" y="20" width="24" height="26" rx="6" fill="#DCE0E6" stroke="#B8C0CC" stroke-width="1"/>
+      <circle cx="38" cy="28" r="4.5" fill="#22252A" stroke="#B8C0CC" stroke-width="1"/>
+      <circle cx="38" cy="28" r="2" fill="#0A0B0C"/>
+      <circle cx="37" cy="27" r="0.8" fill="#FFF" opacity="0.7"/>
+      <circle cx="46" cy="38" r="4.5" fill="#22252A" stroke="#B8C0CC" stroke-width="1"/>
+      <circle cx="46" cy="38" r="2" fill="#0A0B0C"/>
+      <circle cx="48" cy="26" r="2.5" fill="#FFF" opacity="0.9"/>
+      <!-- Cute festival sakura blossom sticker on back of phone 2 -->
+      <circle cx="30" cy="75" r="15" fill="#FFB7C5" opacity="0.85" stroke="#4E3524" stroke-width="1"/>
+      <path d="M 23 72 Q 30 63 37 72 Q 42 75 37 80 Q 30 86 23 80 Q 18 75 23 72 Z" fill="#FF8DA1"/>
+      <circle cx="30" cy="75" r="3.5" fill="#FFF"/>
+      <!-- Right hand fingers gripping phone 2 -->
+      <path d="M 70 50 Q 72 35 64 30 Q 57 28 54 38 L 58 65 Q 67 65 70 50 Z" fill="#F3CBA5" stroke="#4E3524" stroke-width="1.8"/>
+      <path d="M 2 40 Q -10 38 -12 48 Q -13 56 0 55 Z" fill="#F3CBA5" stroke="#4E3524" stroke-width="1.8"/>
+      <path d="M 0 55 Q -12 55 -13 64 Q -12 72 0 70 Z" fill="#EFC398" stroke="#4E3524" stroke-width="1.8"/>
+      <path d="M 0 70 Q -11 70 -11 78 Q -10 85 0 83 Z" fill="#EBBF94" stroke="#4E3524" stroke-width="1.8"/>
+      <path d="M 1 83 Q -8 85 -7 92 Q -5 98 4 95 Z" fill="#E0AF83" stroke="#4E3524" stroke-width="1.8"/>
+      <path d="M -6 85 Q -23 100 -48 120 L -18 140 Q 2 110 7 95 Z" fill="#FAF6EC" stroke="#4E3524" stroke-width="1.8"/>
+    </g>
+
+    <!-- Playful sparkle stars near her face -->
+    <g fill="#FFD700" opacity="0.85">
+      <path d="M 85 110 Q 85 105 80 105 Q 85 105 85 100 Q 85 105 90 105 Q 85 105 85 110 Z"/>
+      <path d="M 215 95 Q 215 91 211 91 Q 215 91 215 87 Q 215 91 219 91 Q 215 91 215 95 Z" transform="scale(1.2) translate(-35, 0)"/>
+      <circle cx="78" cy="92" r="1.5" fill="#FFAEC9"/>
+      <circle cx="225" cy="110" r="2" fill="#FFAEC9"/>
+    </g>
+  </g>
+
+  <!-- ============ THE HIGH MESSY BUN ("PINEAPPLE BUN") BREAKING OUT OF THE FRAME! ============ -->
+  <g filter="url(#softShadow)">
+    <!-- Bun base volume sitting high on the crown -->
+    <path d="M 115 56 C 105 35 125 15 150 16 C 175 15 195 35 185 56 Z" fill="#6E4B2F" stroke="#4E3524" stroke-width="2" stroke-linejoin="round"/>
+    <!-- Overlapping messy bun loops and swirls -->
+    <path d="M 120 48 Q 135 20 160 25 Q 185 30 175 52 Q 150 40 120 48 Z" fill="#7B5638" stroke="#4E3524" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M 130 35 Q 150 18 170 30 Q 180 42 165 50 Q 145 35 130 35 Z" fill="#8A6240"/>
+    <!-- Caramel highlight streaks in the bun -->
+    <path d="M 135 45 Q 150 22 168 32" fill="none" stroke="#B08350" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 125 40 Q 140 28 155 38" fill="none" stroke="#C79A64" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 150 20 Q 165 25 175 42" fill="none" stroke="#B08350" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Spiky top-knot bun ends sticking up and out -->
+    <g fill="none" stroke="#5E3F28" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 130 25 Q 122 12 115 10"/>
+      <path d="M 138 20 Q 134 8 128 5"/>
+      <path d="M 148 16 Q 148 4 145 2"/>
+      <path d="M 158 18 Q 164 6 168 4"/>
+      <path d="M 168 24 Q 178 12 184 12"/>
+      <path d="M 175 32 Q 188 22 195 24"/>
+      <path d="M 120 34 Q 108 26 102 28"/>
+    </g>
+    <g fill="none" stroke="#B08350" stroke-width="1.8" stroke-linecap="round">
+      <path d="M 135 22 Q 128 10 122 7"/>
+      <path d="M 152 17 Q 156 6 158 3"/>
+      <path d="M 164 21 Q 174 10 178 9"/>
+      <path d="M 118 30 Q 110 22 106 24"/>
+    </g>
+  </g>
+
+  <!-- Outer frame rings -->
+  <circle cx="150" cy="172" r="140" fill="none" stroke="#EBDDBE" stroke-width="6"/>
+  <circle cx="150" cy="172" r="143.5" fill="none" stroke="#E2D2AC" stroke-width="1.5"/>
+</svg>

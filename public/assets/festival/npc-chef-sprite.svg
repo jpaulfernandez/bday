@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 210" width="140" height="210">
+  <defs>
+    <filter id="shadowChef" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#3A2010" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Ground shadow -->
+  <ellipse cx="70" cy="200" rx="36" ry="8" fill="#000" opacity="0.18"/>
+
+  <!-- Legs & shoes -->
+  <g>
+    <!-- Dark navy/black chef pants -->
+    <rect x="50" y="148" width="17" height="38" rx="6" fill="#1C2833" stroke="#101820" stroke-width="1.4"/>
+    <rect x="73" y="148" width="17" height="38" rx="6" fill="#243444" stroke="#101820" stroke-width="1.4"/>
+    <!-- Black kitchen clogs/shoes -->
+    <path d="M48 184 h20 a5 5 0 0 1 5 7 l-1 4 h-27 a4 4 0 0 1 -4 -5 v-1 a5 5 0 0 1 7 -5 Z" fill="#181A1D" stroke="#000" stroke-width="1.4"/>
+    <path d="M72 184 h20 a5 5 0 0 1 5 7 l-1 4 h-27 a4 4 0 0 1 -4 -5 v-1 a5 5 0 0 1 7 -5 Z" fill="#222529" stroke="#000" stroke-width="1.4"/>
+    <rect x="47" y="191" width="32" height="4" rx="2" fill="#3D4248"/>
+    <rect x="71" y="191" width="32" height="4" rx="2" fill="#3D4248"/>
+  </g>
+
+  <!-- Outfit: Traditional Ramen Chef Coat (White with Red/Crimson trim) -->
+  <path d="M 42 96 Q 40 88 48 84 L 92 84 Q 100 88 98 96 L 99 150 Q 99 156 91 156 L 49 156 Q 41 156 41 150 Z" fill="#FFFDF9" stroke="#101820" stroke-width="1.6" stroke-linejoin="round"/>
+  <!-- Red collar trim & overlap -->
+  <path d="M 56 84 L 84 120 L 49 156" fill="none" stroke="#C93B2B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 84 84 L 70 100" fill="none" stroke="#C93B2B" stroke-width="4" stroke-linecap="round"/>
+  <!-- Chef coat buttons -->
+  <circle cx="78" cy="110" r="3" fill="#1C2833"/>
+  <circle cx="74" cy="126" r="3" fill="#1C2833"/>
+  <circle cx="70" cy="142" r="3" fill="#1C2833"/>
+  <!-- Red waist apron string -->
+  <rect x="42" y="142" width="56" height="6" fill="#C93B2B" stroke="#101820" stroke-width="1.2"/>
+  <path d="M 85 145 L 94 154 M 87 146 L 96 150" stroke="#FFF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Arms holding a Ramen Bowl -->
+  <path d="M 42 94 Q 28 104 36 122 Q 42 134 56 126 Z" fill="#FFFDF9" stroke="#101820" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M 98 94 Q 112 104 104 122 Q 98 134 84 126 Z" fill="#FFFDF9" stroke="#101820" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M 38 114 Q 40 120 50 118" stroke="#C93B2B" stroke-width="3" fill="none"/>
+  <path d="M 102 114 Q 100 120 90 118" stroke="#C93B2B" stroke-width="3" fill="none"/>
+
+  <!-- Chef Hands -->
+  <circle cx="54" cy="125" r="6" fill="#C68B59" stroke="#101820" stroke-width="1.4"/>
+  <circle cx="86" cy="125" r="6" fill="#C68B59" stroke="#101820" stroke-width="1.4"/>
+
+  <!-- Big Red Ramen Bowl in hands -->
+  <path d="M 44 116 Q 44 138 70 138 Q 96 138 96 116 Z" fill="#C93B2B" stroke="#101820" stroke-width="2"/>
+  <ellipse cx="70" cy="116" rx="26" ry="6" fill="#F4C542" stroke="#101820" stroke-width="1.5"/>
+  <ellipse cx="70" cy="116" rx="20" ry="4" fill="#E8A838"/>
+  <circle cx="64" cy="115" r="3.5" fill="#FFF"/>
+  <circle cx="76" cy="117" r="2.5" fill="#5E3A1A"/>
+  <!-- Steam from bowl -->
+  <path d="M 62 106 Q 64 100 60 94" fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 74 104 Q 72 98 76 92" fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Head & Face (Filipino man with neat mustache & goatee) -->
+  <g transform="translate(0, 4)">
+    <!-- Neck -->
+    <rect x="62" y="70" width="16" height="12" rx="5" fill="#C68B59"/>
+    <rect x="62" y="70" width="16" height="6" rx="2" fill="#AD7445" opacity="0.6"/>
+
+    <!-- Face shape -->
+    <ellipse cx="70" cy="48" rx="26" ry="27" fill="#C68B59" stroke="#101820" stroke-width="1.6"/>
+    
+    <!-- Ears -->
+    <ellipse cx="43" cy="50" rx="4" ry="7" fill="#C68B59" stroke="#101820" stroke-width="1.5"/>
+    <ellipse cx="97" cy="50" rx="4" ry="7" fill="#C68B59" stroke="#101820" stroke-width="1.5"/>
+
+    <!-- Subtle warm cheeks -->
+    <ellipse cx="52" cy="56" rx="6" ry="3.5" fill="#A8574B" opacity="0.35"/>
+    <ellipse cx="88" cy="56" rx="6" ry="3.5" fill="#A8574B" opacity="0.35"/>
+
+    <!-- Eyebrows: Confident, friendly black eyebrows -->
+    <path d="M 51 37 Q 57 34 64 37" stroke="#1A1C1E" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 76 37 Q 83 34 89 37" stroke="#1A1C1E" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <!-- Eyes: Warm brown eyes -->
+    <ellipse cx="58" cy="47" rx="4.5" ry="5" fill="#FFFFFF"/>
+    <circle cx="58" cy="47" r="3.8" fill="#3B2616"/>
+    <circle cx="58" cy="47" r="2" fill="#110B06"/>
+    <circle cx="59.5" cy="45.5" r="1.2" fill="#FFFFFF"/>
+    <path d="M 53 45 Q 58 42 63 45" fill="none" stroke="#110B06" stroke-width="1.8" stroke-linecap="round"/>
+
+    <ellipse cx="82" cy="47" rx="4.5" ry="5" fill="#FFFFFF"/>
+    <circle cx="82" cy="47" r="3.8" fill="#3B2616"/>
+    <circle cx="82" cy="47" r="2" fill="#110B06"/>
+    <circle cx="83.5" cy="45.5" r="1.2" fill="#FFFFFF"/>
+    <path d="M 77 45 Q 82 42 87 45" fill="none" stroke="#110B06" stroke-width="1.8" stroke-linecap="round"/>
+
+    <!-- Nose -->
+    <path d="M 69 53 Q 68 57 72 55" stroke="#9B663C" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+
+    <!-- Neat Mustache & Goatee -->
+    <!-- Mustache -->
+    <path d="M 58 60 Q 70 57 82 60 Q 76 63 70 62 Q 64 63 58 60 Z" fill="#1A1C1E"/>
+    <!-- Friendly smiling mouth -->
+    <path d="M 60 64 Q 70 71 80 64 Z" fill="#FFF" stroke="#A83C2C" stroke-width="1.2" stroke-linejoin="round"/>
+    <!-- Goatee under lip -->
+    <path d="M 65 71 Q 70 75 75 71 Q 73 73 70 73 Q 67 73 65 71 Z" fill="#1A1C1E"/>
+
+    <!-- Short neat black hair with Hachimaki (Chef Headband) -->
+    <!-- Top hair -->
+    <path d="M 44 32 C 42 16 58 12 70 12 C 82 12 98 16 96 32 Z" fill="#1A1C1E" stroke="#101820" stroke-width="1.4"/>
+    <!-- Short textured sideburns -->
+    <rect x="44" y="32" width="5" height="12" rx="2" fill="#1A1C1E"/>
+    <rect x="91" y="32" width="5" height="12" rx="2" fill="#1A1C1E"/>
+
+    <!-- White Hachimaki Headband tied around forehead -->
+    <rect x="43" y="26" width="54" height="10" rx="2" fill="#FFF" stroke="#101820" stroke-width="1.5"/>
+    <!-- Red circle (Sun symbol) on hachimaki -->
+    <circle cx="70" cy="31" r="3.5" fill="#C93B2B"/>
+    <!-- Headband knot tails on the side -->
+    <path d="M 95 30 L 106 25 Q 108 27 105 31 Z" fill="#FFF" stroke="#101820" stroke-width="1.2"/>
+    <path d="M 95 32 L 108 34 Q 107 37 104 36 Z" fill="#FFF" stroke="#101820" stroke-width="1.2"/>
+  </g>
+
+  <!-- Sparkle floating near chef -->
+  <circle cx="30" cy="80" r="2.5" fill="#FFD700"/>
+  <circle cx="112" cy="70" r="2" fill="#F4C542"/>
+</svg>

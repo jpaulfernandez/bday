@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 210" width="140" height="210">
+  <defs>
+    <filter id="shadowSydney" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#4E3524" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Ground shadow -->
+  <ellipse cx="70" cy="200" rx="34" ry="8" fill="#000" opacity="0.16"/>
+
+  <!-- Back hair behind neck -->
+  <path d="M 52 70 Q 48 85 52 105 L 88 105 Q 92 85 88 70 Z" fill="#2C1D11"/>
+
+  <!-- Legs & shoes -->
+  <g>
+    <!-- Blue jeans -->
+    <rect x="52" y="148" width="15" height="38" rx="7" fill="#4A6583" stroke="#2C1D11" stroke-width="1.4"/>
+    <rect x="73" y="148" width="15" height="38" rx="7" fill="#547293" stroke="#2C1D11" stroke-width="1.4"/>
+    <rect x="51" y="176" width="17" height="6" rx="3" fill="#6A87A8"/>
+    <rect x="72" y="176" width="17" height="6" rx="3" fill="#6A87A8"/>
+    <!-- Casual sneakers -->
+    <path d="M50 184 h19 a6 6 0 0 1 6 7 l-1 4 h-26 a5 5 0 0 1 -5 -5 v-1 a6 6 0 0 1 7 -5 Z" fill="#FFFFFF" stroke="#2C1D11" stroke-width="1.4"/>
+    <path d="M71 184 h19 a6 6 0 0 1 6 7 l-1 4 h-26 a5 5 0 0 1 -5 -5 v-1 a6 6 0 0 1 7 -5 Z" fill="#F0F0F0" stroke="#2C1D11" stroke-width="1.4"/>
+    <rect x="49" y="190" width="30" height="4" rx="2" fill="#D32F2F"/>
+    <rect x="70" y="190" width="30" height="4" rx="2" fill="#C62828"/>
+  </g>
+
+  <!-- Outfit: Dark olive inner top under Cream knitted V-neck sweater -->
+  <path d="M 54 94 Q 70 108 86 94 L 88 150 Q 88 156 80 156 L 60 156 Q 52 156 52 150 Z" fill="#4B5338" stroke="#2C1D11" stroke-width="1.4"/>
+  <path d="M 46 96 Q 44 88 52 84 L 88 84 Q 96 88 94 96 L 95 150 Q 95 156 87 156 L 53 156 Q 45 156 45 150 Z" fill="#F5EFE6" stroke="#2C1D11" stroke-width="1.6" stroke-linejoin="round"/>
+  <!-- Deep V-neck neckline -->
+  <path d="M 56 84 L 70 106 L 84 84 Z" fill="#4B5338" stroke="#2C1D11" stroke-width="1.4"/>
+  <!-- Sweater knit texture details -->
+  <path d="M 52 144 h36 v4 h-36 Z" fill="#E6DCC8"/>
+  <path d="M 55 115 L 55 140" stroke="#DCD0B8" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <path d="M 85 115 L 85 140" stroke="#DCD0B8" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Arms & hands -->
+  <path d="M 46 94 Q 36 102 38 118 Q 40 128 47 126 Q 52 124 50 116 Q 48 106 50 98 Z" fill="#F5EFE6" stroke="#2C1D11" stroke-width="1.5" stroke-linejoin="round"/>
+  <circle cx="43" cy="126" r="5" fill="#ECA67E" stroke="#2C1D11" stroke-width="1.4"/>
+  
+  <path d="M 94 94 Q 104 102 102 118 Q 100 128 93 126 Q 88 124 90 116 Q 92 106 90 98 Z" fill="#F5EFE6" stroke="#2C1D11" stroke-width="1.5" stroke-linejoin="round"/>
+  <circle cx="97" cy="126" r="5" fill="#ECA67E" stroke="#2C1D11" stroke-width="1.4"/>
+
+  <!-- Head & Face -->
+  <g transform="translate(0, 4)">
+    <!-- Neck -->
+    <rect x="62" y="70" width="16" height="12" rx="5" fill="#ECA67E"/>
+    <rect x="62" y="70" width="16" height="6" rx="2" fill="#D38C64" opacity="0.6"/>
+
+    <!-- Face shape -->
+    <ellipse cx="70" cy="50" rx="26" ry="25" fill="#ECA67E" stroke="#2C1D11" stroke-width="1.6"/>
+    
+    <!-- Ears -->
+    <ellipse cx="43" cy="52" rx="4" ry="7" fill="#ECA67E" stroke="#2C1D11" stroke-width="1.5"/>
+    <ellipse cx="97" cy="52" rx="4" ry="7" fill="#ECA67E" stroke="#2C1D11" stroke-width="1.5"/>
+    <!-- Gold earrings -->
+    <circle cx="43" cy="56" r="2" fill="#FFD700" stroke="#B39700" stroke-width="0.8"/>
+    <circle cx="97" cy="56" r="2" fill="#FFD700" stroke="#B39700" stroke-width="0.8"/>
+
+    <!-- Cheeks Blush -->
+    <ellipse cx="52" cy="58" rx="6" ry="3.5" fill="#E56B55" opacity="0.55"/>
+    <ellipse cx="88" cy="58" rx="6" ry="3.5" fill="#E56B55" opacity="0.55"/>
+
+    <!-- Eyebrows -->
+    <path d="M 52 42 Q 58 39 64 42" stroke="#2C1D11" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <path d="M 76 42 Q 82 39 88 42" stroke="#2C1D11" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+
+    <!-- Eyes: Warm & joyful -->
+    <ellipse cx="58" cy="50" rx="4.5" ry="5.2" fill="#FFFFFF"/>
+    <circle cx="58" cy="50" r="4" fill="#3B2616"/>
+    <circle cx="58" cy="50" r="2.2" fill="#110B06"/>
+    <circle cx="59.5" cy="48.5" r="1.3" fill="#FFFFFF"/>
+    <path d="M 53 48 Q 58 45 63 48" fill="none" stroke="#110B06" stroke-width="1.8" stroke-linecap="round"/>
+
+    <ellipse cx="82" cy="50" rx="4.5" ry="5.2" fill="#FFFFFF"/>
+    <circle cx="82" cy="50" r="4" fill="#3B2616"/>
+    <circle cx="82" cy="50" r="2.2" fill="#110B06"/>
+    <circle cx="83.5" cy="48.5" r="1.3" fill="#FFFFFF"/>
+    <path d="M 77 48 Q 82 45 87 48" fill="none" stroke="#110B06" stroke-width="1.8" stroke-linecap="round"/>
+
+    <!-- Nose -->
+    <path d="M 69 57 Q 68 60 71 58" stroke="#BD7752" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+
+    <!-- Big warm smile with braces -->
+    <path d="M 58 63 Q 70 73 82 63 Z" fill="#FFFFFF" stroke="#A83C2C" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M 60 66 Q 70 70 80 66" stroke="#B0BEC5" stroke-width="1.4" fill="none"/>
+    <circle cx="64" cy="66.5" r="0.8" fill="#90A4AE"/>
+    <circle cx="70" cy="67.5" r="0.8" fill="#90A4AE"/>
+    <circle cx="76" cy="66.5" r="0.8" fill="#90A4AE"/>
+
+    <!-- Hair side bangs under cap -->
+    <path d="M 44 45 C 42 58 44 66 42 70 C 40 72 43 74 46 70 C 48 64 48 54 49 45 Z" fill="#2C1D11" stroke="#2C1D11" stroke-width="1"/>
+    <path d="M 96 45 C 98 58 96 66 98 70 C 100 72 97 74 94 70 C 92 64 92 54 91 45 Z" fill="#2C1D11" stroke="#2C1D11" stroke-width="1"/>
+  </g>
+
+  <!-- Red BOSTON baseball cap -->
+  <g transform="translate(0, 4)" filter="url(#shadowSydney)">
+    <!-- Cap crown -->
+    <path d="M 42 38 Q 42 16 70 16 Q 98 16 98 38 Z" fill="#C62828" stroke="#2C1D11" stroke-width="1.6"/>
+    <!-- Cap panel stitching -->
+    <path d="M 70 16 C 65 24 65 30 65 38" fill="none" stroke="#A71B1B" stroke-width="1.2"/>
+    <path d="M 70 16 C 75 24 75 30 75 38" fill="none" stroke="#A71B1B" stroke-width="1.2"/>
+    <!-- Top button -->
+    <circle cx="70" cy="15" r="2.5" fill="#B71C1C" stroke="#2C1D11" stroke-width="1"/>
+    <!-- Curved Visor brim pointing forward and slightly right -->
+    <path d="M 38 36 C 45 44 95 44 104 36 C 108 40 102 48 70 48 C 38 48 32 40 38 36 Z" fill="#D32F2F" stroke="#2C1D11" stroke-width="1.6" stroke-linejoin="round"/>
+    <!-- White BOSTON text on cap -->
+    <text x="70" y="33" font-family="sans-serif" font-size="7" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">BOSTON</text>
+  </g>
+</svg>

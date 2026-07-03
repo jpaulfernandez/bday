@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Glow -->
+  <circle cx="32" cy="36" r="24" fill="#FFE9A8" opacity="0.4"/>
+  <!-- Chopsticks lifting noodles -->
+  <line x1="12" y1="12" x2="48" y2="28" stroke="#8A5A2E" stroke-width="3" stroke-linecap="round"/>
+  <line x1="14" y1="8" x2="52" y2="24" stroke="#8A5A2E" stroke-width="3" stroke-linecap="round"/>
+  <!-- Wavy Noodles -->
+  <path d="M42 24 Q36 34 40 46" fill="none" stroke="#F4C542" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M46 26 Q40 36 44 48" fill="none" stroke="#E8A838" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M38 23 Q32 35 36 44" fill="none" stroke="#F4C542" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M48 25 Q52 35 48 45" fill="none" stroke="#FFE9A8" stroke-width="3" stroke-linecap="round"/>
+  <!-- Bowl Base -->
+  <path d="M14 44 Q14 58 32 58 Q50 58 50 44 Z" fill="#E0533C" stroke="#8A2E1F" stroke-width="2.5"/>
+  <ellipse cx="32" cy="44" rx="18" ry="5" fill="#F4C542"/>
+</svg>

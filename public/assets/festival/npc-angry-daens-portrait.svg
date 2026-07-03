@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 340" width="300" height="340">
+  <defs>
+    <clipPath id="portraitCircleAngry">
+      <circle cx="150" cy="172" r="140"/>
+    </clipPath>
+    <linearGradient id="bgGradAngry" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEE2E2"/>
+      <stop offset="100%" stop-color="#FCA5A5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fiery red backdrop circle -->
+  <circle cx="150" cy="172" r="140" fill="url(#bgGradAngry)"/>
+
+  <!-- Angry steam and fire emoji decorations -->
+  <g clip-path="url(#portraitCircleAngry)" opacity="0.85">
+    <text x="40" y="100" font-size="28">🤬</text>
+    <text x="220" y="80" font-size="28">🔥</text>
+    <text x="50" y="240" font-size="24">😤</text>
+    <text x="230" y="240" font-size="24">🚗</text>
+  </g>
+
+  <!-- MAIN PORTRAIT CONTENT -->
+  <g clip-path="url(#portraitCircleAngry)">
+    <!-- Outfit: White collared shirt under black leather jacket -->
+    <path d="M 70 260 L 230 260 L 250 360 L 50 360 Z" fill="#FAF6EC" stroke="#4E3524" stroke-width="2.5"/>
+    <path d="M 60 250 Q 55 230 75 220 L 225 220 Q 245 230 240 250 L 250 360 L 50 360 Z" fill="#1E2024" stroke="#4E3524" stroke-width="2.5"/>
+    <!-- Collar -->
+    <path d="M 100 220 L 130 255 L 110 270 L 85 235 Z" fill="#FAF6EC" stroke="#4E3524" stroke-width="2"/>
+    <path d="M 200 220 L 170 255 L 190 270 L 215 235 Z" fill="#FAF6EC" stroke="#4E3524" stroke-width="2"/>
+
+    <!-- Neck -->
+    <rect x="125" y="180" width="50" height="45" rx="15" fill="#F3CBA5" stroke="#4E3524" stroke-width="2"/>
+
+    <!-- Face shape -->
+    <ellipse cx="150" cy="140" rx="70" ry="68" fill="#F5C4A0" stroke="#4E3524" stroke-width="2.5"/>
+
+    <!-- Ears & Pearl Earrings -->
+    <ellipse cx="78" cy="145" rx="10" ry="18" fill="#F3CBA5" stroke="#4E3524" stroke-width="2"/>
+    <ellipse cx="222" cy="145" rx="10" ry="18" fill="#F3CBA5" stroke="#4E3524" stroke-width="2"/>
+    <circle cx="78" cy="158" r="5" fill="#FAF6EC" stroke="#C9BDA4" stroke-width="1.5"/>
+    <circle cx="222" cy="158" r="5" fill="#FAF6EC" stroke="#C9BDA4" stroke-width="1.5"/>
+
+    <!-- Angry Blush -->
+    <ellipse cx="105" cy="160" rx="18" ry="10" fill="#E86A58" opacity="0.75"/>
+    <ellipse cx="195" cy="160" rx="18" ry="10" fill="#E86A58" opacity="0.75"/>
+
+    <!-- Angry V-Shaped Eyebrows 😡 -->
+    <path d="M 100 110 L 135 125" stroke="#8A2B1C" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <path d="M 200 110 L 165 125" stroke="#8A2B1C" stroke-width="7" fill="none" stroke-linecap="round"/>
+
+    <!-- Eyes: Wide & Shouting -->
+    <ellipse cx="120" cy="135" rx="12" ry="14" fill="#FFFFFF"/>
+    <circle cx="120" cy="135" r="10" fill="#4A2E18"/>
+    <circle cx="120" cy="135" r="5" fill="#1A1008"/>
+    <circle cx="124" cy="131" r="3" fill="#FFFFFF"/>
+    <path d="M 105 125 L 135 132" fill="none" stroke="#2D1A0C" stroke-width="4" stroke-linecap="round"/>
+
+    <ellipse cx="180" cy="135" rx="12" ry="14" fill="#FFFFFF"/>
+    <circle cx="180" cy="135" r="10" fill="#4A2E18"/>
+    <circle cx="180" cy="135" r="5" fill="#1A1008"/>
+    <circle cx="184" cy="131" r="3" fill="#FFFFFF"/>
+    <path d="M 195 125 L 165 132" fill="none" stroke="#2D1A0C" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Nose -->
+    <path d="M 148 150 Q 146 158 153 154" stroke="#C88E68" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <!-- ANGRY SHOUTING OPEN MOUTH 🤬 -->
+    <path d="M 130 170 Q 150 160 170 170 L 168 190 Q 150 200 132 190 Z" fill="#6E150B" stroke="#A83C2C" stroke-width="3"/>
+    <path d="M 132 170 L 168 170 L 166 178 L 134 178 Z" fill="#FFFFFF"/>
+    <path d="M 138 190 Q 150 180 162 190 Z" fill="#E57A68"/>
+
+    <!-- HAIR & MESSY BUN -->
+    <path d="M 80 135 C 70 165 72 185 65 195 C 62 200 68 205 72 195 C 78 175 75 155 85 135 Z" fill="#7B5638" stroke="#4E3524" stroke-width="2.5"/>
+    <path d="M 220 135 C 230 165 228 185 235 195 C 238 200 232 205 228 195 C 222 175 225 155 215 135 Z" fill="#7B5638" stroke="#4E3524" stroke-width="2.5"/>
+
+    <path d="M 80 120 Q 70 60 120 45 Q 180 30 215 80 Q 225 100 215 120 Q 205 80 180 65 Q 150 50 120 55 Q 100 60 85 80 Q 75 100 80 120 Z" fill="#6E4B2F" stroke="#4E3524" stroke-width="2.5"/>
+
+    <!-- GLASSES -->
+    <g fill="none" stroke="#C8966E" stroke-width="5" stroke-linejoin="round">
+      <path d="M 95 125 Q 95 110 110 110 L 130 110 Q 140 110 140 125 L 138 150 Q 135 160 125 160 L 105 160 Q 95 160 95 150 Z"/>
+      <path d="M 160 125 Q 160 110 175 110 L 195 110 Q 205 110 205 125 L 203 150 Q 200 160 190 160 L 170 160 Q 160 160 160 150 Z"/>
+      <path d="M 140 125 Q 150 120 160 125" stroke-width="4"/>
+    </g>
+
+    <!-- PINEAPPLE BUN TOP -->
+    <g transform="translate(0, 10)">
+      <path d="M 110 45 C 95 15 125 -15 150 -10 C 175 -15 205 15 190 45 Z" fill="#6E4B2F" stroke="#4E3524" stroke-width="2.5"/>
+      <path d="M 115 35 Q 135 -10 165 0 Q 195 10 180 35 Q 150 15 115 35 Z" fill="#7B5638"/>
+      <!-- Spiky ends -->
+      <g fill="none" stroke="#5E3F28" stroke-width="4" stroke-linecap="round">
+        <path d="M 130 -5 Q 120 -25 110 -28"/>
+        <path d="M 140 -10 Q 135 -30 125 -35"/>
+        <path d="M 150 -12 Q 150 -32 145 -38"/>
+        <path d="M 165 -10 Q 170 -30 180 -35"/>
+        <path d="M 175 0 Q 190 -20 200 -20"/>
+      </g>
+    </g>
+
+    <!-- ANGRY FOREHEAD STEAM / POPPING VEIN SYMBOLS 🔥 -->
+    <g transform="translate(210, 80)" stroke="#E83015" stroke-width="5" stroke-linecap="round">
+      <path d="M -15 -10 L -5 0 M -5 -10 L -15 0"/>
+      <path d="M 5 -25 L 15 -15 M 15 -25 L 5 -15"/>
+    </g>
+  </g>
+</svg>

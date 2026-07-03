@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <ellipse cx="40" cy="72" rx="26" ry="5" fill="#000" opacity="0.12"/>
+  <!-- flippers -->
+  <ellipse cx="14" cy="56" rx="10" ry="6" fill="#6FB04D" transform="rotate(-20 14 56)"/>
+  <ellipse cx="66" cy="56" rx="10" ry="6" fill="#6FB04D" transform="rotate(20 66 56)"/>
+  <!-- shell -->
+  <path d="M12 54 Q12 28 40 28 Q68 28 68 54 Q68 64 40 64 Q12 64 12 54 Z" fill="#5F8A4C"/>
+  <path d="M16 52 Q16 32 40 32 Q64 32 64 52 Q64 60 40 60 Q16 60 16 52 Z" fill="#7A9E63"/>
+  <g fill="#94B87B">
+    <path d="M34 34 h12 l4 10 l-10 8 l-10 -8 Z"/>
+    <path d="M20 44 l8 -6 l2 10 l-8 6 Z"/>
+    <path d="M60 44 l-8 -6 l-2 10 l8 6 Z"/>
+  </g>
+  <!-- head -->
+  <circle cx="40" cy="24" r="14" fill="#8FCB5B"/>
+  <circle cx="35" cy="22" r="2.8" fill="#2E3B2A"/>
+  <circle cx="45" cy="22" r="2.8" fill="#2E3B2A"/>
+  <circle cx="35.9" cy="21" r="0.9" fill="#FFF"/>
+  <circle cx="45.9" cy="21" r="0.9" fill="#FFF"/>
+  <path d="M36 29 Q40 32 44 29" stroke="#2E3B2A" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <ellipse cx="30" cy="27" rx="2.5" ry="1.5" fill="#F2A38C" opacity="0.6"/>
+  <ellipse cx="50" cy="27" rx="2.5" ry="1.5" fill="#F2A38C" opacity="0.6"/>
+  <!-- party hat -->
+  <path d="M32 12 L40 -2 L48 12 Z" fill="#E4574C"/>
+  <path d="M32 12 L40 -2 L44 5 Q38 8 32 12 Z" fill="#F4C542"/>
+  <circle cx="40" cy="-2" r="3" fill="#F6A8C8"/>
+</svg>

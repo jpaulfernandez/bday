@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 210" width="140" height="210">
+  <defs>
+    <filter id="shadowPaul" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#3A2010" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Ground shadow -->
+  <ellipse cx="70" cy="200" rx="34" ry="8" fill="#000" opacity="0.16"/>
+
+  <!-- Legs & shoes -->
+  <g>
+    <!-- Dark charcoal trousers -->
+    <rect x="51" y="148" width="16" height="38" rx="6" fill="#2E3338" stroke="#1A1C1E" stroke-width="1.4"/>
+    <rect x="73" y="148" width="16" height="38" rx="6" fill="#363C42" stroke="#1A1C1E" stroke-width="1.4"/>
+    <!-- Black boots/shoes -->
+    <path d="M49 184 h19 a5 5 0 0 1 5 7 l-1 4 h-26 a4 4 0 0 1 -4 -5 v-1 a5 5 0 0 1 6 -5 Z" fill="#181A1D" stroke="#000" stroke-width="1.4"/>
+    <path d="M71 184 h19 a5 5 0 0 1 5 7 l-1 4 h-26 a4 4 0 0 1 -4 -5 v-1 a5 5 0 0 1 6 -5 Z" fill="#222529" stroke="#000" stroke-width="1.4"/>
+    <rect x="48" y="191" width="31" height="4" rx="2" fill="#3D4248"/>
+    <rect x="70" y="191" width="31" height="4" rx="2" fill="#3D4248"/>
+  </g>
+
+  <!-- Outfit: Dark navy tee under Warm Brown striped fleece cardigan -->
+  <!-- Navy shirt base -->
+  <path d="M 52 94 L 88 94 L 88 150 Q 88 156 80 156 L 60 156 Q 52 156 52 150 Z" fill="#1C2833" stroke="#101820" stroke-width="1.4"/>
+  
+  <!-- Brown striped cardigan jacket -->
+  <path d="M 44 96 Q 42 88 50 84 L 90 84 Q 98 88 96 96 L 97 150 Q 97 156 89 156 L 51 156 Q 43 156 43 150 Z" fill="#5C3A21" stroke="#101820" stroke-width="1.6" stroke-linejoin="round"/>
+  <!-- Caramel brown stripes on jacket -->
+  <path d="M 45 106 h50" stroke="#9C6B3B" stroke-width="4"/>
+  <path d="M 45 120 h51" stroke="#9C6B3B" stroke-width="4"/>
+  <path d="M 44 134 h52" stroke="#9C6B3B" stroke-width="4"/>
+  <path d="M 44 148 h50" stroke="#9C6B3B" stroke-width="4"/>
+  <!-- Open front trim revealing navy shirt -->
+  <path d="M 62 88 L 62 156" stroke="#1C2833" stroke-width="6"/>
+  <path d="M 78 88 L 78 156" stroke="#1C2833" stroke-width="6"/>
+  <!-- Collar fold -->
+  <path d="M 50 84 L 62 100 L 58 104 L 44 90 Z" fill="#4A2E18" stroke="#101820" stroke-width="1.2"/>
+  <path d="M 90 84 L 78 100 L 82 104 L 96 90 Z" fill="#4A2E18" stroke="#101820" stroke-width="1.2"/>
+
+  <!-- Arms & hands -->
+  <path d="M 44 94 Q 32 102 36 118 Q 38 128 45 126 Q 50 124 48 116 Q 46 106 48 98 Z" fill="#5C3A21" stroke="#101820" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M 35 108 Q 37 114 46 112" stroke="#9C6B3B" stroke-width="3" fill="none"/>
+  <circle cx="41" cy="126" r="5" fill="#F3CBA5" stroke="#101820" stroke-width="1.4"/>
+  
+  <path d="M 96 94 Q 108 102 104 118 Q 102 128 95 126 Q 90 124 92 116 Q 94 106 92 98 Z" fill="#5C3A21" stroke="#101820" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M 105 108 Q 103 114 94 112" stroke="#9C6B3B" stroke-width="3" fill="none"/>
+  <circle cx="99" cy="126" r="5" fill="#F3CBA5" stroke="#101820" stroke-width="1.4"/>
+
+  <!-- Head & Face -->
+  <g transform="translate(0, 4)">
+    <!-- Neck -->
+    <rect x="62" y="70" width="16" height="12" rx="5" fill="#F3CBA5"/>
+    <rect x="62" y="70" width="16" height="6" rx="2" fill="#E0AF83" opacity="0.6"/>
+
+    <!-- Face shape -->
+    <ellipse cx="70" cy="48" rx="26" ry="26" fill="#F3CBA5" stroke="#101820" stroke-width="1.6"/>
+    
+    <!-- Ears -->
+    <ellipse cx="43" cy="50" rx="4" ry="7" fill="#F3CBA5" stroke="#101820" stroke-width="1.5"/>
+    <ellipse cx="97" cy="50" rx="4" ry="7" fill="#F3CBA5" stroke="#101820" stroke-width="1.5"/>
+
+    <!-- Subtle blush -->
+    <ellipse cx="52" cy="57" rx="6" ry="3.5" fill="#F2967C" opacity="0.45"/>
+    <ellipse cx="88" cy="57" rx="6" ry="3.5" fill="#F2967C" opacity="0.45"/>
+
+    <!-- Eyebrows: Expressive, friendly -->
+    <path d="M 52 38 Q 58 35 64 38" stroke="#1C140E" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M 76 38 Q 82 35 88 38" stroke="#1C140E" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Eyes: Happy crinkle or open joyful -->
+    <ellipse cx="58" cy="48" rx="4.5" ry="5.2" fill="#FFFFFF"/>
+    <circle cx="58" cy="48" r="4" fill="#3B2616"/>
+    <circle cx="58" cy="48" r="2.2" fill="#110B06"/>
+    <circle cx="59.5" cy="46.5" r="1.3" fill="#FFFFFF"/>
+    <path d="M 53 46 Q 58 43 63 46" fill="none" stroke="#110B06" stroke-width="1.8" stroke-linecap="round"/>
+
+    <ellipse cx="82" cy="48" rx="4.5" ry="5.2" fill="#FFFFFF"/>
+    <circle cx="82" cy="48" r="4" fill="#3B2616"/>
+    <circle cx="82" cy="48" r="2.2" fill="#110B06"/>
+    <circle cx="83.5" cy="46.5" r="1.3" fill="#FFFFFF"/>
+    <path d="M 77 46 Q 82 43 87 46" fill="none" stroke="#110B06" stroke-width="1.8" stroke-linecap="round"/>
+
+    <!-- Nose -->
+    <path d="M 69 55 Q 68 58 71 56" stroke="#C88E68" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+
+    <!-- Cheerful grin with braces -->
+    <path d="M 57 62 Q 70 73 83 62 Z" fill="#FFFFFF" stroke="#A83C2C" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M 59 65 Q 70 69 81 65" stroke="#B0BEC5" stroke-width="1.4" fill="none"/>
+    <circle cx="64" cy="65.5" r="0.8" fill="#90A4AE"/>
+    <circle cx="70" cy="66.5" r="0.8" fill="#90A4AE"/>
+    <circle cx="76" cy="65.5" r="0.8" fill="#90A4AE"/>
+
+    <!-- Fluffy curly hair with cute bangs -->
+    <!-- Back and crown curl clusters -->
+    <circle cx="48" cy="28" r="8" fill="#1C140E" stroke="#101820" stroke-width="1.4"/>
+    <circle cx="55" cy="18" r="9" fill="#1C140E" stroke="#101820" stroke-width="1.4"/>
+    <circle cx="68" cy="15" r="9.5" fill="#1C140E" stroke="#101820" stroke-width="1.4"/>
+    <circle cx="81" cy="18" r="9" fill="#1C140E" stroke="#101820" stroke-width="1.4"/>
+    <circle cx="92" cy="28" r="8" fill="#1C140E" stroke="#101820" stroke-width="1.4"/>
+    <circle cx="44" cy="38" r="7" fill="#1C140E" stroke="#101820" stroke-width="1.4"/>
+    <circle cx="96" cy="38" r="7" fill="#1C140E" stroke="#101820" stroke-width="1.4"/>
+    <path d="M 44 42 C 40 22 58 14 70 14 C 82 14 100 22 96 42 Z" fill="#1C140E"/>
+
+    <!-- Curly/wavy bangs drooping across forehead -->
+    <path d="M 44 38 Q 51 46 58 39 Q 65 47 72 39 Q 79 47 86 39 Q 91 45 96 38 C 96 32 86 26 70 26 C 54 26 44 32 44 38 Z" fill="#1C140E" stroke="#101820" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Curl swirl lines in hair -->
+    <path d="M 52 38 Q 56 43 60 38" stroke="#38291D" stroke-width="1.5" fill="none"/>
+    <path d="M 66 38 Q 70 43 74 38" stroke="#38291D" stroke-width="1.5" fill="none"/>
+    <path d="M 80 38 Q 84 43 88 38" stroke="#38291D" stroke-width="1.5" fill="none"/>
+  </g>
+
+  <!-- Happy party balloon sparkle -->
+  <circle cx="112" cy="35" r="2" fill="#64B5F6"/>
+  <path d="M 32 30 Q 32 26 29 26 Q 32 26 32 22 Q 32 26 35 26 Q 32 26 32 30 Z" fill="#FFD700"/>
+</svg>

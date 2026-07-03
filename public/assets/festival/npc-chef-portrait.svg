@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <circle cx="60" cy="60" r="56" fill="#FFFDF9" stroke="#C93B2B" stroke-width="4"/>
+  <circle cx="60" cy="60" r="50" fill="#FCEADE" opacity="0.5"/>
+
+  <!-- Filipino Ramen Chef Head & Face -->
+  <g transform="translate(-10, 15)">
+    <!-- Neck -->
+    <rect x="62" y="70" width="16" height="12" rx="5" fill="#C68B59"/>
+    <!-- Chef coat collar -->
+    <path d="M 50 80 L 70 95 L 90 80" fill="none" stroke="#FFF" stroke-width="8"/>
+    <path d="M 54 80 L 70 92 L 86 80" fill="none" stroke="#C93B2B" stroke-width="3"/>
+
+    <!-- Face shape -->
+    <ellipse cx="70" cy="48" rx="26" ry="27" fill="#C68B59" stroke="#101820" stroke-width="1.6"/>
+    
+    <!-- Ears -->
+    <ellipse cx="43" cy="50" rx="4" ry="7" fill="#C68B59" stroke="#101820" stroke-width="1.5"/>
+    <ellipse cx="97" cy="50" rx="4" ry="7" fill="#C68B59" stroke="#101820" stroke-width="1.5"/>
+
+    <!-- Warm cheeks -->
+    <ellipse cx="52" cy="56" rx="6" ry="3.5" fill="#A8574B" opacity="0.35"/>
+    <ellipse cx="88" cy="56" rx="6" ry="3.5" fill="#A8574B" opacity="0.35"/>
+
+    <!-- Eyebrows -->
+    <path d="M 51 37 Q 57 34 64 37" stroke="#1A1C1E" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 76 37 Q 83 34 89 37" stroke="#1A1C1E" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <!-- Eyes -->
+    <ellipse cx="58" cy="47" rx="4.5" ry="5" fill="#FFFFFF"/>
+    <circle cx="58" cy="47" r="3.8" fill="#3B2616"/>
+    <circle cx="58" cy="47" r="2" fill="#110B06"/>
+    <circle cx="59.5" cy="45.5" r="1.2" fill="#FFFFFF"/>
+
+    <ellipse cx="82" cy="47" rx="4.5" ry="5" fill="#FFFFFF"/>
+    <circle cx="82" cy="47" r="3.8" fill="#3B2616"/>
+    <circle cx="82" cy="47" r="2" fill="#110B06"/>
+    <circle cx="83.5" cy="45.5" r="1.2" fill="#FFFFFF"/>
+
+    <!-- Nose -->
+    <path d="M 69 53 Q 68 57 72 55" stroke="#9B663C" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+
+    <!-- Neat Mustache & Goatee -->
+    <path d="M 58 60 Q 70 57 82 60 Q 76 63 70 62 Q 64 63 58 60 Z" fill="#1A1C1E"/>
+    <path d="M 60 64 Q 70 71 80 64 Z" fill="#FFF" stroke="#A83C2C" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M 65 71 Q 70 75 75 71 Q 73 73 70 73 Q 67 73 65 71 Z" fill="#1A1C1E"/>
+
+    <!-- Hair & Hachimaki -->
+    <path d="M 44 32 C 42 16 58 12 70 12 C 82 12 98 16 96 32 Z" fill="#1A1C1E" stroke="#101820" stroke-width="1.4"/>
+    <rect x="43" y="26" width="54" height="10" rx="2" fill="#FFF" stroke="#101820" stroke-width="1.5"/>
+    <circle cx="70" cy="31" r="3.5" fill="#C93B2B"/>
+  </g>
+</svg>

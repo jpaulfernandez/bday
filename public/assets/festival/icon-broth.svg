@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Glow -->
+  <circle cx="32" cy="36" r="24" fill="#F4C542" opacity="0.35"/>
+  <!-- Bowl -->
+  <path d="M10 34 Q10 56 32 56 Q54 56 54 34 Z" fill="#2B5F75" stroke="#1A3B49" stroke-width="2.5"/>
+  <!-- Golden Simmering Broth -->
+  <ellipse cx="32" cy="34" rx="21" ry="8" fill="#E8A838" stroke="#C68A28" stroke-width="2"/>
+  <ellipse cx="32" cy="34" rx="16" ry="5" fill="#F4C542"/>
+  <!-- Simmer bubbles -->
+  <circle cx="26" cy="33" r="2" fill="#FFF" opacity="0.7"/>
+  <circle cx="38" cy="35" r="1.5" fill="#FFF" opacity="0.7"/>
+  <!-- Steam -->
+  <path d="M24 22 Q22 14 26 8" fill="none" stroke="#FFF" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M32 20 Q34 12 30 6" fill="none" stroke="#FFF" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M40 22 Q38 14 42 8" fill="none" stroke="#FFF" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+</svg>
